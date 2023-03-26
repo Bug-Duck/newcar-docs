@@ -5,4 +5,5 @@
   * [暂停与继续](/zh-cn/1.4.md)
   * [其他接口](/zh-cn/1.5.md)
 * **组件**
-  * [Carobj](/zh-cn/2.1.md)
+  * [总览](/zh-cn/2.md)
+  * [Carobj](/zh-cn/carobj.md)
