@@ -1,4 +1,4 @@
-![logo](/public/logo-notext-128.png)
+![logo](https://newcar.js.org/public/logo-notext-128.png)
 
 <span style="font-size: 45px">newcar</span>
 
