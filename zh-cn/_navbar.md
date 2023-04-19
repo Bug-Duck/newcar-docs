@@ -1,6 +1,6 @@
 * Languages
   * [English](/)
-  * [Chinese](https://newcar.js.org/zh-cn)
+  * [中文(简体)](https://newcar.js.org/zh-cn)
 
 * Link
   * [Github](https://github.com/Bug-Duck/newcar)

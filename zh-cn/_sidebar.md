@@ -1,11 +1,12 @@
-* **入门**
-  * [初始化动画](/1.1.md)
-  * [定义动画对象](/1.2.md)
-  * [添加关键帧动画](/1.3.md)
-  * [暂停与继续](1.4.md)
-  * [其他接口](/1.5.md)
+* [**入门**](/begin.md)
+* **进阶**
+  * [父子组件](/progress/fas.md)
+  * [自定义组件](/progress/object-defination.md)
+  * [自定义动画](/progress/animation-defination.md)
+  * [音频](/progress/sound.md)
+  * [其他](/progress/others.md)
 * **组件**
-  * [总览](/2.md)
-  * [Carobj](/carobj.md)
-  * [Circle](/circle.md)
-  * [Line](/line.md)
+  * [总览](/objects/object-all.md)
+  * [Carobj](/objects/carobj.md)
+  * [Circle](/objects/circle.md)
+  * [Line](/objects/line.md)
