@@ -1,5 +1,5 @@
 * Languages
-  * [English](/)
+  * [English](https://newcar.js.org/)
   * [中文(简体)](https://newcar.js.org/zh-cn)
 
 * Link

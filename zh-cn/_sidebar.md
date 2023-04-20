@@ -10,3 +10,12 @@
   * [Carobj](/objects/carobj.md)
   * [Circle](/objects/circle.md)
   * [Line](/objects/line.md)
+  * [MathImage](/objects/mathImage.md)
+  * [Point](/objects/point.md)
+  * [Polygon](/objects/polygon.md)
+  * [Spirit](/objects/spirit.md)
+  * [Text](/objects/text.md)
+* **动画**
+  * [总览](/animation/animation-all.md)
+  * [动画索引](/animation/animation-index.md)
+* **实例**
