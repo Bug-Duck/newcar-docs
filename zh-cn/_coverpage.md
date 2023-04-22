@@ -8,4 +8,8 @@
 
 ### 现代化的动画引擎
 
+```shell
+$ npm install newcar
+```
+
 [开始](/begin.md)
