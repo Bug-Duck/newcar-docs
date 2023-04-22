@@ -41,7 +41,7 @@ const animation = new Car(document.getElementById("animation"), 60);
 animation.startPlay();
 ```
 
-现在的动画在理论上已经跑起来了，但是画布上没有任何东西，所以我们要来添加点东西在画布
+?> 现在的动画在理论上已经跑起来了，但是画布上没有任何东西，所以我们要来添加点东西在画布
 
 # 定义动画对象
 
@@ -68,7 +68,7 @@ animation.startPlay();
 
 这时你会看到屏幕上有一个字符出现
 
-Text的更多参数以及更多组件，请参见[组件列表](/2.1.md)
+?> Text的更多参数以及更多组件，请参见[组件列表](/2.1.md)
 
 # 添加关键帧动画
 
@@ -105,6 +105,6 @@ animation
 
 <iframe height="500px" src="https://easings.net/"></iframe>
 
-更多关键帧动画，请参阅[动画列表](/3.1.md)
+?> 更多关键帧动画，请参阅[动画列表](/3.1.md)
 
 

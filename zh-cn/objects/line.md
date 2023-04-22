@@ -13,3 +13,15 @@
 取值: `Point` (详细请见[Point](/point.md))
 
 此条线段的结束点
+
+### * `width`
+
+取值: `number`
+
+此条线段的宽度
+
+### * `color`
+
+取值: `string`
+
+此条线段的颜色

@@ -74,3 +74,7 @@
 ### `Carobj.appear()`
 
 显示组件
+
+### `Carobj.addChildren(...children: Carobj[])`
+
+添加子组件
