@@ -5,3 +5,4 @@
   - [Github](https://github.com/Bug-Duck/newcar)
   - [Gitee](https://gitee.com/bugducker/newcar)
   - [Twitter](https://twitter.com/bugduckteam)
+- [Main Contributor](/contributors/README.md)
