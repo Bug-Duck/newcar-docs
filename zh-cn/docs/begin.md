@@ -21,7 +21,10 @@ Project
 import { newcar } from "./node_modules/newcar/dist/newcar.js";
 const { Car } = newcar;
 
-const animation = new Car(document.getElementById("animation"), 60);
+const animation = new Car(
+  document.getElementById("animation"), //Canvas的dom对象
+  60
+);
 ```
 
 其中，第一个参数为canvas元素的dom对象，第二个参数为动画的帧数
@@ -55,14 +58,14 @@ const { Car } = newcar;
 const { Text } = newcar.object;
 
 const text = new Text({
-    x: 200,
-    y: 100,
-    text: "Hello world!"
-  })
+  x: 200, // 定义x坐标
+  y: 100, // 定义y轴坐标
+  text: "Hello world!" // 设置显示的文字
+})
 
 const animation = new Car(document.getElementById("animation"), 60);
 animation
-  .addObject(text)
+  .addObject(text) // 在动画中加入这个Text对象
 animation.startPlay();
 ```
 
@@ -90,11 +93,11 @@ animation
   .addObject(text)
   .addAnimationItem(
     new Translation({
-      startAt: 0,
-      lastsFor: 200,
-      to: [200, 200],
-      bindTo(text),
-      by: EaseInSineInterpolator
+      startAt: 0, // 动画在第0帧开始
+      lastsFor: 200, // 持续200帧
+      to: [200, 200], // 从原有的位置到坐标(200, 200)
+      bindTo(text), // 将动画绑定在Text对象上
+      by: EaseInSineInterpolator // 设定变速曲线
     })
   )
 ```
