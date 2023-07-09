@@ -1,21 +1,8 @@
-* [**入门**](/begin.md)
+* [**入门**](./docs/begin.md)
 * **进阶**
-  * [父子组件](/progress/fas.md)
-  * [自定义组件](/progress/object-defination.md)
-  * [自定义动画](/progress/animation-defination.md)
-  * [音频](/progress/sound.md)
-  * [其他](/progress/others.md)
-* **组件**
-  * [总览](/objects/object-all.md)
-  * [Carobj](/objects/carobj.md)
-  * [Circle](/objects/circle.md)
-  * [Line](/objects/line.md)
-  * [MathImage](/objects/mathImage.md)
-  * [Point](/objects/point.md)
-  * [Polygon](/objects/polygon.md)
-  * [Spirit](/objects/spirit.md)
-  * [Text](/objects/text.md)
-* **动画**
-  * [总览](/animation/animation-all.md)
-  * [动画索引](/animation/animation-index.md)
+  * [父子组件](./docs/fas.md)
+  * [自定义组件](./docs/object-defination.md)
+  * [自定义动画](./docs/animation-defination.md)
+  * [音频](./docs/sound.md)
+  * [其他](./docs/others.md)
 * **实例**

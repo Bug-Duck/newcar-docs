@@ -1,0 +1,13 @@
+* **组件**
+  * [总览](api/objects/object-all.md)
+  * [Carobj](api/objects/carobj.md)
+  * [Circle](api/objects/circle.md)
+  * [Line](api/objects/line.md)
+  * [MathImage](api/objects/mathImage.md)
+  * [Point](api/objects/point.md)
+  * [Polygon](api/objects/polygon.md)
+  * [Spirit](api/objects/spirit.md)
+  * [Text](api/objects/text.md)
+* **动画**
+  * [总览](api/animations/animation-all.md)
+  * [动画索引](api/animations/animation-index.md)

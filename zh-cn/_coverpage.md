@@ -12,4 +12,5 @@
 $ npm install newcar
 ```
 
-[开始](/begin.md)
+[开始入门](/docs/begin.md)
+[API文档](/api/objects/object-all.md)

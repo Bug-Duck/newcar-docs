@@ -68,7 +68,7 @@ animation.startPlay();
 
 这时你会看到屏幕上有一个字符出现
 
-?> Text的更多参数以及更多组件，请参见[组件列表](/2.1.md)
+?> Text的更多参数以及更多组件，请参见[组件列表](/api/objects/object-all.md)
 
 # 添加关键帧动画
 
@@ -105,6 +105,6 @@ animation
 
 <iframe height="500px" src="https://easings.net/"></iframe>
 
-?> 更多关键帧动画，请参阅[动画列表](/3.1.md)
+?> 更多关键帧动画，请参阅[动画列表](api/animations/animation-all.md)
 
 

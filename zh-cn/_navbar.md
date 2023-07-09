@@ -7,4 +7,7 @@
   * [Github](https://github.com/Bug-Duck/newcar)
   * [Gitee](https://gitee.com/bugducker/newcar)
   * [Twitter](https://twitter.com/bugduckteam) 
-* [主要维护者](https://newcar.js.org/#/contributors/README)
+
+* [Docs](./docs/begin.md)
+
+* [API](./api/objects/object-all.md)
