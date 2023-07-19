@@ -1,11 +1,11 @@
 # 暂停与继续
 
-### `suspend(frame?: number)`
+### `pause(frame?: number)`
 
 这里的 `frame` 为暂停到某一帧，默认暂停到当前帧
 
 ```javascript
-animation.suspend(10)
+animation.pause(10)
 ```
 
 上述实例为在第10帧暂停
