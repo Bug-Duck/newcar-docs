@@ -57,10 +57,10 @@ import * as newcar from "./node_modules/newcar/dist/newcar.js";
 const { Car } = newcar;
 const { Text } = newcar.object;
 
-const text = new Text({
+const text = new Text("Hello world!", {
   x: 200, // 定义x坐标
   y: 100, // 定义y轴坐标
-  text: "Hello world!" // 设置显示的文字
+  size: 30, //定义字符大小
 })
 
 const animation = new Car(document.getElementById("animation"), 60);
@@ -81,12 +81,15 @@ animation.play();
 import * as newcar from "./node_modules/newcar/dist/newcar.js";
 const { Car } = newcar;
 const { Text } = newcar.object;
-const { EaseInSineInterpolator } = newcar.interpolator
+const { EaseInSine } = newcar.interpolator;
+const { Translation } = newcar.animation;
 
-const text = new Text({
+const animation = new Car(document.getElementById("animation"), 60);
+
+const text = new Text("Hello world!", {
   x: 200,
   y: 100,
-  text: "Hello world!"
+  size: 30,
 })
 
 animation
@@ -94,9 +97,9 @@ animation
   .addAnimationItem(
     new Translation({
       startAt: 0, // 动画在第0帧开始
-      lastsFor: 200, // 持续200帧
+      lastsFor: 30, // 持续30帧
       to: [200, 200], // 从原有的位置到坐标(200, 200)
-      bindTo(text), // 将动画绑定在Text对象上
+      bindTo: text, // 将动画绑定在Text对象上
       by: EaseInSineInterpolator // 设定变速曲线
     })
   )
@@ -104,12 +107,12 @@ animation
 animation.play();
 ```
 
-以上代码将会把 `text` 从(200, 100) 移动到(200, 200)，从第0帧开始，持续200帧
+以上代码将会把 `text` 从(200, 100) 移动到(200, 200)，从第0帧开始，持续30帧
+
+运行效果: <iframe height="500" width="800" src="../../demos/begin-demo.html"></iframe>
 
 如果你想加入动画曲线，那么可以使用`by`参数，newcar也内置了许多动画曲线，参考如下，感谢[https://easings.net/](https://easings.net/)提供的动画曲线!
 
 <iframe height="500px" src="https://easings.net/"></iframe>
 
 <!-- ?> 更多关键帧动画，请参阅[动画列表](api/animations/animation-all.md) -->
-
-
