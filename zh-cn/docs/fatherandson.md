@@ -8,6 +8,7 @@ const child = new Text(
     y: 300
   }
 )
+
 const father = new Carobj(
   {
     x: 100,
@@ -17,6 +18,9 @@ const father = new Carobj(
     ]
   }
 )
+
+// Or
+father.addChildren(child);
 ```
 此时child的(200, 300)并不是它以canvas左上角为原点， 而是以"父亲"的位置为原点，相对于它的父组件位置绘制的。
 

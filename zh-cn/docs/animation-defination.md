@@ -1,6 +1,6 @@
 # 自定义动画
 
-在newcar当中，所有的动画类都继承自 `AnimationBuilderItem，动画类一定要有两个必定的参数，他们分别是 `startFrame` (动画开始时的时间，单位:帧) 和 `length` (动画的持续时间，单位:帧)；
+在newcar当中，所有的动画类都继承自 `AnimationBuilderItem`，动画类一定要有两个必定的参数，他们分别是 `startFrame` (动画开始时的时间，单位:帧) 和 `length` (动画的持续时间，单位:帧)；
 
 ## 基础框架
 ```javascript
