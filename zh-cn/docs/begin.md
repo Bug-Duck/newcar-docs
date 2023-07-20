@@ -18,7 +18,7 @@ Project
 第一，我们先来创建一个newcar的动画对象 `Car`
 ```javascript
 // src/index.js
-import * as newcar from "./node_modules/newcar/dist/newcar.mjs";
+import * as newcar from "./node_modules/newcar/dist/newcar.js";
 const { Car } = newcar;
 
 const animation = new Car(
@@ -53,7 +53,7 @@ animation.play();
 首先让我们了解一下newcar的组件库 `newcar.object` , 其中包含各种组件， 我们要用到的是其中的 `Text`
 
 ```javascript
-import * as newcar from "./node_modules/newcar/dist/newcar.mjs";
+import * as newcar from "./node_modules/newcar/dist/newcar.js";
 const { Car } = newcar;
 const { Text } = newcar.object;
 
@@ -78,7 +78,7 @@ animation.play();
 接下来我们把这个文字移动，这需要用到 `addAnimationItem` 方法，我们来添加一个 `Translation` 动画
 
 ```javascript
-import * as newcar from "./node_modules/newcar/dist/newcar.mjs";
+import * as newcar from "./node_modules/newcar/dist/newcar.js";
 const { Car } = newcar;
 const { Text } = newcar.object;
 const { EaseInSine } = newcar.interpolator;

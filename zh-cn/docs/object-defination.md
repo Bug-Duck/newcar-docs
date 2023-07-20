@@ -3,7 +3,7 @@
 我们知道，newcar的所有对象都继承自 `Carobj`，我们需要先要继承自 `Carobj` 这个类
 
 ```javascript
-import * as newcar from "./node_modules/newcar/dist/newcar.mjs";
+import * as newcar from "./node_modules/newcar/dist/newcar.js";
 
 class MyObject extends newcar.object.Carobj {
   constructor(datas) {

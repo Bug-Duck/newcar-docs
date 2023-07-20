@@ -4,7 +4,7 @@
 
 ## 基础框架
 ```javascript
-import * as newcar from "./node_modules/newcar/dist/newcar.mjs";
+import * as newcar from "./node_modules/newcar/dist/newcar.js";
 
 class MyAnimationItem extends newcar.animation.AnimationBuilderItem {
   constructor(datas) {
