@@ -109,7 +109,7 @@ animation.play();
 
 以上代码将会把 `text` 从(200, 100) 移动到(200, 200)，从第0帧开始，持续30帧
 
-运行效果: <iframe height="500" width="800" src="../../demos/begin-demo.html"></iframe>
+运行效果: <iframe height="500" width="800" src="../../demos/begin"></iframe>
 
 如果你想加入动画曲线，那么可以使用`by`参数，newcar也内置了许多动画曲线，参考如下，感谢[https://easings.net/](https://easings.net/)提供的动画曲线!
 
