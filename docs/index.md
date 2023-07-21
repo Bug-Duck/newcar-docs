@@ -1,27 +1,27 @@
 ---
 layout: home
-title: 文档主页
+title: Docs Home
 
 hero:
   name: "Newcar"
-  text: "现代动画引擎"
-  tagline: "高度可配置的通用高级引擎"
+  text: "The modern animation engine"
+  tagline: "Highly configurable universal advanced engine."
   image:
     src: /Banner.webp
     alt: Newcar Logo
   actions:
     - theme: brand
-      text: 快速入门
-      link: /getting-start
+      text: Getting Start
+      link: /en/getting-start
     - theme: alt
-      text: API 参考（暂不可用）
-      link: /
+      text: API Reference (unavailable now)
+      link: /en/
 
 features:
-  - title: 丰富的 API 接口 🛠️
-    details: 强大多样的 API, 让动画自由度更高
-  - title: 基于原生 Canvas 🧬
-    details: 基于 HTML Canvas，方便图形功能的开发
-  - title: 高度自定义性 ⚙️
-    details: 可定制化强，做出自己的动画风格
+  - title: Rich API interfaces 🛠️
+    details: Powerful and diverse APIs that provide greater freedom in creating animations
+  - title: Based on the native Canvas API 🧬
+    details: Based on HTML Canvas, it facilitates the development of graphic functionalities
+  - title: High degree of customization ⚙️
+    details: Strong customizability, allowing for the creation of one's own animation style
 ---

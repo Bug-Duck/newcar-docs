@@ -1,15 +1,15 @@
 ---
-title: 自定义动画
+title: Custom Animation
 ---
 
-# 自定义动画
+# Custom Animation
 
-在 `newcar` 中，所有动画类都继承自 `AnimationBuilderItem` 类，它有两个必选的参数：
+In `newcar`, all animation classes inherit from the `AnimationBuilderItem` class, which has two required parameters:
 
-- `startFrame`（动画开始时的时间，单位：帧）
-- `length`（动画的持续时间，单位：帧）
+- `startFrame` (the time when the animation starts, in frames)
+- `length` (the duration of the animation, in frames)
 
-## 基础框架
+## Basic Framework
 
 ```javascript
 import * as newcar from "./node_modules/newcar/dist/newcar.js";
@@ -32,18 +32,18 @@ class MyAnimationItem extends newcar.animation.AnimationBuilderItem {
 }
 ```
 
-你可以选择将 `startAt`, `lastsFor` 作为动画的起始和持续时间，将 `by` 作为变速曲线
+You can choose to use `startAt` and `lastsFor` as the start and duration of the animation, and use `by` as the easing curve.
 
 :::info
-当然你也可以使用其他命名，不过为了标准化，便于共享分发，建议还是使用标准命名。
+Of course, you can use other names if you prefer. However, for standardization and ease of sharing and distribution, it is recommended to use standard naming conventions.
 :::
 
-## 改变参数
+## Changing Parameters
 
-接下来就是关于动画的函数 `onDrawFrame` ，此方法接受两个参数：
+Next is the `onDrawFrame` function for the animation. This method takes two parameters:
 
-- 从此动画开始到现在的累计帧数，比如一个动画在第 60 帧开始，现在是第 70 帧，那么累计帧数就是 70-60=10 帧。
-- 一个底层接口，我们暂不赘述。
+- The cumulative number of frames from the start of the animation until now. For example, if an animation starts at frame 60 and it is currently at frame 70, the cumulative frame count would be 70-60=10 frames.
+- An underlying interface, which we won't go into detail here.
 
 ```javascript
 import * as newcar from "./node_modules/newcar/dist/newcar.js";

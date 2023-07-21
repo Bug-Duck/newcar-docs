@@ -1,10 +1,10 @@
 ---
-title: 父子组件
+title: Parent-Child Components
 ---
 
-# 父子组件
+# Parent-Child Components
 
-`newcar` 中的对象可以使用 `children` 进行嵌套，添加方式如下：
+Objects in `newcar` can be nested using `children`. Here's how you can add them:
 
 ```javascript
 const child = new Text({
@@ -18,21 +18,21 @@ const father = new Carobj({
   children: [child]
 });
 
-// 或者使用
+// Alternatively, you can use
 father.addChildren(child);
 ```
 
-此时 `child` 的 `(200, 300)` 并不是它以 `canvas` 左上角为原点，而是以 “父亲” 的位置为原点，**相对于它的父组件位置**绘制的。
+In this case, the coordinates `(200, 300)` for `child` are not relative to the top-left corner of the canvas, but rather relative to the position of its parent component.
 
 :::tip
-同时，父子组件遵循 **“子动父不动， 父动子跟动”** 的原则，即当父组件移动时，子组件会跟着移动；子组件移动时，父组件不动。
+Additionally, parent-child components follow the principle of **"child moves with parent, parent does not move with child"**. This means that when the parent component moves, the child component moves along with it. When the child component moves, the parent component remains stationary.
 
-有了这个特性，就可以设置一个背景，**操纵人物移动时可以让场景中的物品成为背景的 “孩子”**，然后让背景向后移动。
+With this feature, you can set a background and make objects in the scene become the "children" of the background, allowing the background to move backward when manipulating the character's movement.
 :::
 
 :::info
-除了坐标，还有**旋转的角度**也遵循父子组件原则。
+In addition to coordinates, the **rotation angle** also follows the parent-child component principle.
 
-> 这里的旋转角度是指相对于父组件整个坐标系的旋转角度，而不是每个组件旋转角度的数值。
+> The rotation angle here refers to the angle of rotation relative to the entire coordinate system of the parent component, rather than the numerical value of the rotation angle for each component.
 
 :::

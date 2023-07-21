@@ -1,12 +1,12 @@
 ---
-title: 快速入门
+title: Getting Start
 ---
 
-# 快速入门 <Badge type="tip" text="^0.3.0" />
+# Quick Start <Badge type="tip" text="^0.3.0" />
 
-## 安装
+## Installation
 
-用你喜欢的包管理器安装 `newcar` 的使用接口：
+Install the `newcar` with your preferred package manager:
 
 ### npm
 
@@ -26,9 +26,9 @@ yarn add newcar
 pnpm add newcar
 ```
 
-## 项目目录
+## Project Structure
 
-以下目录结构仅供参考，实际使用**以使用环境为准**：
+The following directory structure is for reference only. The actual usage may vary depending on the environment:
 
 ```txt
 Project
@@ -39,9 +39,9 @@ Project
 └─ package.json
 ```
 
-## 初始化
+## Initialization
 
-首先，在 `index.js` 中创建一个 `newcar` 的动画对象 `Car`：
+First, create an animation object `Car` for `newcar` in `index.js`:
 
 ```javascript
 // src/index.js
@@ -49,14 +49,14 @@ import * as newcar from "./node_modules/newcar/dist/newcar.js";
 const { Car } = newcar;
 
 const animation = new Car(
-  document.getElementById("animation"), // 获取 Canvas 的 DOM 对象
+  document.getElementById("animation"), // Get the DOM object of the canvas
   60
 );
 ```
 
-其中，第一个参数为 `canvas` 元素的 [DOM](https://developer.mozilla.org/zh-CN/docs/Web/API/Document_Object_Model/Introduction) 对象，第二个参数为该动画的帧数。
+The first parameter is the [DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction) object of the `canvas` element, and the second parameter is the number of frames for the animation.
 
-接着，在 `index.html` 引入此文件：
+Next, import this file in `index.html`:
 
 ```html
 <!--index.html-->
@@ -66,21 +66,21 @@ const animation = new Car(
 </body>
 ```
 
-现在，动画还没动起来，所以我们需要**播放**它：
+Now, the animation is not moving yet, so we need to **play** it:
 
 ```javascript
 animation.play();
 ```
 
 :::info
-现在，动画理论上已经运行，但画布上没有任何东西，所以我们需要在画布上添加一些东西
+Now, the animation should theoretically be running, but there is nothing on the canvas, so we need to add something to the canvas.
 :::
 
-## 定义动画对象
+## Define Animation Object
 
-下一步就是在屏幕上显示一些东西，例如，在屏幕上显示 `"Hello world!"`。
+The next step is to display something on the screen, for example, displaying `"Hello world!"` on the screen.
 
-`newcar` 的组件库 `newcar.object` 中包含各种组件，在这我们要用到的是其中的 `Text` 组件：
+The `newcar` component library `newcar.object` contains various components. Here, we will use the `Text` component:
 
 ```javascript
 import * as newcar from "./node_modules/newcar/dist/newcar.js";
@@ -88,23 +88,23 @@ const { Car } = newcar;
 const { Text } = newcar.object;
 
 const text = new Text("Hello world!", {
-  x: 200, // 定义 X 坐标
-  y: 100, // 定义 Y 轴坐标
-  size: 30 // 定义字符大小
+  x: 200, // Define the X coordinate
+  y: 100, // Define the Y coordinate
+  size: 30 // Define the font size
 });
 
 const animation = new Car(document.getElementById("animation"), 60);
-animation.addObject(text); // 在动画中加入这个 Text 对象
+animation.addObject(text); // Add this Text object to the animation
 animation.play();
 ```
 
-这时你会看到屏幕上出现 `"Hello world!"` 字符。
+Now you will see the `"Hello world!"` text on the screen.
 
-<!-- ?> Text的更多参数以及更多组件，请参见[组件列表](/api/objects/object-all.md) -->
+<!-- ?> For more parameters and more components of Text, please refer to the [Component List](/api/objects/object-all.md) -->
 
-## 添加关键帧动画
+## Add Keyframe Animation
 
-接下来我们尝试**移动这个文字**，这需要用到 `addAnimationItem` 方法，这里，我们将添加一个 `Translation` 动画：
+Next, let's try to **move this text**. This requires using the `addAnimationItem` method. Here, we will add a `Translation` animation:
 
 ```javascript
 import * as newcar from "./node_modules/newcar/dist/newcar.js";
@@ -123,25 +123,25 @@ const text = new Text("Hello world!", {
 
 animation.addObject(text).addAnimationItem(
   new Translation({
-    startAt: 0, // 动画在第 0 帧开始
-    lastsFor: 30, // 持续 30 帧
-    to: [200, 200], // 从原有的位置到坐标 (200, 200)
-    bindTo: text, // 将动画绑定在 Text 对象上
-    by: EaseInSineInterpolator // 设定变速曲线
+    startAt: 0, // The animation starts at frame 0
+    lastsFor: 30, // Lasts for 30 frames
+    to: [200, 200], // Move from the current position to coordinates (200, 200)
+    bindTo: text, // Bind the animation to the Text object
+    by: EaseInSineInterpolator // Set the easing curve
   })
 );
 
 animation.play();
 ```
 
-以上代码将会把 `text` 从 `(200, 100)` 移动到 `(200, 200)`，从第 0 帧开始，持续 30 帧。
+The above code will move the `text` from `(200, 100)` to `(200, 200)` starting from frame 0 and lasting for 30 frames.
 
-<!-- 运行效果: <iframe height="500" width="800" src="../../demos/begin"></iframe> -->
+<!-- Animation Demo: <iframe height="500" width="800" src="../../demos/begin"></iframe> -->
 
 :::tip
-如果你想加入**动画曲线**，那么可以使用 `by` 参数，`newcar` 也内置了许多动画曲线，参考 [Easings](https://easings.net/) 提供的动画曲线!
+If you want to add an **animation curve**, you can use the `by` parameter. `newcar` also provides many built-in animation curves, refer to the animation curves provided by [Easings](https://easings.net/)!
 :::
 
 <!-- <iframe height="500px" src="https://easings.net/"></iframe> -->
 
-<!-- ?> 更多关键帧动画，请参阅[动画列表](api/animations/animation-all.md) -->
+<!-- ?> For more keyframe animations, please refer to the [Animation List](api/animations/animation-all.md) -->

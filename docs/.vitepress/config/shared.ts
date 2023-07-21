@@ -5,6 +5,10 @@ export const sharedConfig = defineConfig({
   title: "Newcar",
   appearance: "dark",
   themeConfig: {
+    logo: {
+      light: "/dark.webp",
+      dark: "/light.webp"
+    },
     outline: 2,
     search: {
       provider: "local"

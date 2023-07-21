@@ -1,30 +1,30 @@
 ---
-title: 音频
+title: Audio
 ---
 
-# 音频
+# Audio
 
-首先，创建一个音频对象，并设定他的播放时间：
+First, create an audio object and set its playback time:
 
 ```javascript
 const { AudioItem } = newcar;
 
 const BGM = new AudioItem(
-  "xxx.mp3", // 音频文件的路径
-  0 // 开始播放的帧数
+  "xxx.mp3", // Path to the audio file
+  0 // Starting frame for playback
 );
 ```
 
-然后在动画对象里添加它：
+Then add it to the animation object:
 
 ```javascript
-animation.addAudioItem(BGM); // `animation` 是一个 `Car` 对象
+animation.addAudioItem(BGM); // `animation` is a `Car` object
 ```
 
-此时他还不能播放，因为浏览器限制自动播放音频，所以需要手动允许播放。
+At this point, it cannot play automatically due to browser restrictions on autoplaying audio. You need to allow playback manually.
 
 :::info
-若中途允许播放音频，`newcar` 会自动跳转到该播放的那个时间位置上：
+If audio playback is allowed during the animation, `newcar` will automatically jump to the corresponding playback position.
 :::
 
 ```javascript
@@ -33,4 +33,4 @@ document.getElementById("id").onclick = () => {
 };
 ```
 
-如果想要禁用播放器，可以使用 `animation.banAudio()` 来进行禁止播放。
+To disable the player, you can use `animation.banAudio()` to prohibit playback.

@@ -1,10 +1,10 @@
 ---
-title: 自定义组件对象
+title: Custom Components Object
 ---
 
-# 自定义组件对象
+# Custom Components Object
 
-要自定义一个组件对象，需要继承 `Carobj` 类：
+To create a custom component object, you need to inherit the `Carobj` class:
 
 ```javascript
 import * as newcar from "./node_modules/newcar/dist/newcar.js";
@@ -17,14 +17,14 @@ class MyObject extends newcar.object.Carobj {
 }
 ```
 
-其中 `datas` 是 `Carobj` 参数，也可以有自定义参数，如示例中的 `value`。
+Here, `datas` is the parameter of `Carobj` and can also have custom parameters, such as the `value` in the example.
 
-接下来是**绘制函数**，我们需要重写父类中的 `onDraw` 方法，**此函数在每一帧就会执行一遍**，把最新的数据绘制到画布上。
+Next is the **drawing function**, where we need to override the `onDraw` method in the parent class. **This function is executed on each frame** to draw the latest data on the canvas.
 
-此函数接受**两个参数**，**类型**分别是：
+This function accepts **two parameters** of the following **types**:
 
-- `CanvasRenderingContext2d`：`canvas` 中绘制组件的上下文
-- `HTMLCanvasElement`：可选，是此动画绑定的 `<canvas>` 标签的 [DOM](https://developer.mozilla.org/zh-CN/docs/Web/API/Document_Object_Model/Introduction)。
+- `CanvasRenderingContext2d`: the context for drawing the component in the canvas
+- `HTMLCanvasElement` (optional): the [DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction) element of the `<canvas>` tag that this animation is bound to.
 
 ```javascript
 import * as newcar from "./node_modules/newcar/dist/newcar.js";
@@ -36,7 +36,7 @@ class MyObject extends newcar.object.Carobj {
   }
 
   onDraw(ctx, ele) {
-    ctx.lineTo(100, 100); // 这里就尽情的发挥你的想象吧！
+    ctx.lineTo(100, 100); // Let your imagination run wild here!
     ctx.stroke();
     return ctx;
   }
