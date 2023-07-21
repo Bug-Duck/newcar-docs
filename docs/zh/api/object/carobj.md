@@ -6,7 +6,7 @@ title: Carobj
 # 参数
 
 ```javascript
-const object = new Carobj({
+Carobj({
   x: number,
   y: number,
   scaleX?: number,

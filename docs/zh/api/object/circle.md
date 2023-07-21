@@ -2,10 +2,12 @@
 title: Circle
 ---
 
+`Circle` 可以创建一个圆，这个圆可以是完整的也可以是不完整的
+
 # 参数
 
 ```javascript
-const object = new Circle({
+Circle({
   startAngle?: number,
   endAngle?: number,
   borderColor?: string,
