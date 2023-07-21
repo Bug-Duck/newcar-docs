@@ -4,6 +4,7 @@ import UnoCSS from "unocss/vite";
 export const sharedConfig = defineConfig({
   title: "Newcar",
   appearance: "dark",
+  lastUpdated: true,
   head: [["link", { rel: "icon", href: "/uni.webp", type: "image/webp" }]],
   themeConfig: {
     logo: {
