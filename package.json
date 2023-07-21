@@ -1,0 +1,23 @@
+{
+  "scripts": {
+    "prepare": "npx only-allow pnpm && simple-git-hooks",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "dependencies": {
+    "vue": "^3.3.4"
+  },
+  "devDependencies": {
+    "markdownlint": "^0.29.0",
+    "markdownlint-cli": "^0.35.0",
+    "prettier": "3.0.0",
+    "simple-git-hooks": "^2.8.1",
+    "unocss": "^0.53.5",
+    "vitepress": "1.0.0-beta.5"
+  },
+  "simple-git-hooks": {
+    "pre-commit": "pnpm prettier . --write && pnpm markdownlint docs/ && git add .",
+    "preserveUnused": true
+  }
+}
