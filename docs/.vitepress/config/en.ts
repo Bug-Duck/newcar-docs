@@ -5,6 +5,10 @@ export const enConfig = defineConfig({
   description: "The modern animation engine",
   themeConfig: {
     siteTitle: "Newcar Official Docs",
+    editLink: {
+      text: "Suggest to this page",
+      pattern: "https://github.com/Bug-Duck/newcar-docs/tree/main/docs/:path"
+    },
     outline: {
       label: "This page"
     },

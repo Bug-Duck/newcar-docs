@@ -22,7 +22,7 @@ const members = [
   {
     avatar: 'https://avatars.githubusercontent.com/u/57032603?v=4',
     name: '27Onion Nebell',
-    title: 'Programer',
+    title: 'Programmer',
     links: [
       { icon: 'github', link: 'https://github.com/onion108' },
       { icon: 'twitter', link: 'https://twitter.com/2Nebell' }
@@ -31,7 +31,7 @@ const members = [
   {
     avatar: 'https://avatars.githubusercontent.com/u/56634385?v=4',
     name: 'Sam Zhang',
-    title: 'Programer',
+    title: 'Programmer',
     links: [
       { icon: 'github', link: 'https://github.com/samzhangjy' },
       { icon: 'twitter', link: 'https://twitter.com/samzhangjy' }
@@ -40,7 +40,7 @@ const members = [
   {
     avatar: 'https://avatars.githubusercontent.com/u/110272607?v=4',
     name: 'PrairieFire2b',
-    title: 'Programer',
+    title: 'Programmer',
     links: [
       { icon: 'github', link: 'https://github.com/PrairieFire2b' },
     ]

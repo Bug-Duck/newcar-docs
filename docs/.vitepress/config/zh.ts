@@ -5,6 +5,10 @@ export const zhConfig = defineConfig({
   description: "现代动画引擎",
   themeConfig: {
     siteTitle: "Newcar 官方中文文档",
+    editLink: {
+      text: "给本页内容提出建议",
+      pattern: "https://github.com/Bug-Duck/newcar-docs/tree/main/docs/:path"
+    },
     outline: {
       label: "本页内容"
     },
