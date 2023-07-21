@@ -12,10 +12,10 @@ hero:
   actions:
     - theme: brand
       text: 快速入门
-      link: /getting-start
+      link: /zh/getting-start
     - theme: alt
       text: API 参考（暂不可用）
-      link: /
+      link: /zh/
 
 features:
   - title: 丰富的 API 接口 🛠️

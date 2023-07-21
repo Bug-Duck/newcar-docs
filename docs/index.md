@@ -12,10 +12,10 @@ hero:
   actions:
     - theme: brand
       text: Getting Start
-      link: /en/getting-start
+      link: /getting-start
     - theme: alt
       text: API Reference (unavailable now)
-      link: /en/
+      link: /
 
 features:
   - title: Rich API interfaces 🛠️

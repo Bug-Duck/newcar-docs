@@ -15,11 +15,11 @@ export const zhConfig = defineConfig({
     nav: [
       {
         text: "指南",
-        link: "/getting-start"
+        link: "/zh/getting-start"
       },
       {
         text: "成员",
-        link: "/members"
+        link: "/zh/members"
       },
       {
         text: "捐赠作者",
@@ -50,29 +50,29 @@ export const zhConfig = defineConfig({
       }
     },
     sidebar: {
-      "/": [
+      "/zh/": [
         {
           text: "快速开始",
-          link: "/getting-start"
+          link: "/zh/getting-start"
         },
         {
           text: "进阶",
           items: [
             {
               text: "父子组件",
-              link: "/advanced/father-child-components"
+              link: "/zh/advanced/father-child-components"
             },
             {
               text: "自定义组件对象",
-              link: "/advanced/custom-object"
+              link: "/zh/advanced/custom-object"
             },
             {
               text: "自定义动画",
-              link: "/advanced/custom-animation"
+              link: "/zh/advanced/custom-animation"
             },
             {
               text: "音频",
-              link: "/advanced/audio"
+              link: "/zh/advanced/audio"
             }
           ]
         }

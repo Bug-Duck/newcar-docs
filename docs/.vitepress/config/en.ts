@@ -15,11 +15,11 @@ export const enConfig = defineConfig({
     nav: [
       {
         text: "Tutorials",
-        link: "/en/getting-start"
+        link: "/getting-start"
       },
       {
         text: "Members",
-        link: "/en/members"
+        link: "/members"
       },
       {
         text: "Sponsor(CN)",
@@ -27,29 +27,29 @@ export const enConfig = defineConfig({
       }
     ],
     sidebar: {
-      "/en/": [
+      "/": [
         {
           text: "Getting Start",
-          link: "/en/getting-start"
+          link: "/getting-start"
         },
         {
           text: "Advanced",
           items: [
             {
               text: "Parent-child components",
-              link: "/en/advanced/father-child-components"
+              link: "/advanced/father-child-components"
             },
             {
               text: "Custom Object",
-              link: "/en/advanced/custom-object"
+              link: "/advanced/custom-object"
             },
             {
               text: "Custom Animation",
-              link: "/en/advanced/custom-animation"
+              link: "/advanced/custom-animation"
             },
             {
               text: "Audio",
-              link: "/en/advanced/audio"
+              link: "/advanced/audio"
             }
           ]
         }

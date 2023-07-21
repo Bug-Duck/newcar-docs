@@ -7,7 +7,7 @@ export default defineConfig({
   ...sharedConfig,
 
   locales: {
-    en: {
+    zh: {
       label: "简体中文",
       link: "/zh/",
       ...zhConfig
