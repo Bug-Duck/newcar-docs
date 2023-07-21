@@ -64,7 +64,7 @@ export const zhConfig = defineConfig({
           items: [
             {
               text: "父子组件",
-              link: "/zh/advanced/father-child-components"
+              link: "/zh/advanced/parent-child-components"
             },
             {
               text: "自定义组件对象",

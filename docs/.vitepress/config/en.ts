@@ -41,7 +41,7 @@ export const enConfig = defineConfig({
           items: [
             {
               text: "Parent-child components",
-              link: "/advanced/father-child-components"
+              link: "/advanced/parent-child-components"
             },
             {
               text: "Custom Object",

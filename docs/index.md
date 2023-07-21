@@ -5,7 +5,7 @@ title: Docs Home
 hero:
   name: "Newcar"
   text: "The modern animation engine"
-  tagline: "Highly configurable universal advanced engine."
+  tagline: "Highly configurable universal advanced engine"
   image:
     src: /Banner.webp
     alt: Newcar Logo
