@@ -11,8 +11,8 @@ hero:
     alt: Newcar Logo
   actions:
     - theme: brand
-      text: 快速入门
-      link: /zh/getting-start
+      text: 快速开始
+      link: /zh/getting-started
     - theme: alt
       text: API 参考（暂不可用）
       link: /zh/

@@ -5,6 +5,7 @@ title： CoordinateSystem
 `CoordinateSystem` 可以创建一个平面直角坐标系
 
 # 参数
+
 ```javascript
 CoordinateSystem(
   axisPositiveXLength: number,
@@ -26,10 +27,9 @@ CoordinateSystem(
 - `axisXDirection` x轴指向的方向
 - `axisYDirection` y轴指向的方向
 - `color`: 坐标系的颜色
- 
+
 :::warning
 
 > 这里的前4个参数是必选参数，且他是在{}外面的
 
 :::
-

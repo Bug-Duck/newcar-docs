@@ -1,6 +1,7 @@
 ---
 title: Carobj
 ---
+
 `Carobj` 是所有组件的基类， `Carobj` 有的参数其他组件也会有，所以在接下来的文档中，会省略 `Carobj` 的参数
 
 # 参数
@@ -18,6 +19,7 @@ Carobj({
   transparency?: number,
 });
 ```
+
 - `x` 对象的x轴坐标
 - `y` 对象的y轴坐标
 - `scaleX` 在水平方向的拉长量

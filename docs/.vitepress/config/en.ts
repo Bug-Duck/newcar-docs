@@ -19,7 +19,7 @@ export const enConfig = defineConfig({
     nav: [
       {
         text: "Tutorials",
-        link: "/getting-start"
+        link: "/getting-started"
       },
       {
         text: "Members",
@@ -33,8 +33,8 @@ export const enConfig = defineConfig({
     sidebar: {
       "/": [
         {
-          text: "Getting Start",
-          link: "/getting-start"
+          text: "Getting Started",
+          link: "/getting-started"
         },
         {
           text: "Advanced",
