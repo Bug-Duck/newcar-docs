@@ -1,8 +1,8 @@
 ---
-title: 快速入门
+title: 快速开始
 ---
 
-# 快速入门 <Badge type="tip" text="^0.3.0" />
+# 快速开始 <Badge type="tip" text="^0.3.0" />
 
 ## 安装
 

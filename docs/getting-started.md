@@ -1,8 +1,8 @@
 ---
-title: Getting Start
+title: Getting Started
 ---
 
-# Quick Start <Badge type="tip" text="^0.3.0" />
+# Getting Started <Badge type="tip" text="^0.3.0" />
 
 ## Installation
 
@@ -54,7 +54,7 @@ const animation = new Car(
 );
 ```
 
-The first parameter is the [DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction) object of the `canvas` element, and the second parameter is the number of frames for the animation.
+The first parameter is the [DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction) object of the `canvas` element, and the second parameter is the number of frames per second for the animation.
 
 Next, import this file in `index.html`:
 

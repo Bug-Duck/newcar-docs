@@ -19,7 +19,7 @@ export const zhConfig = defineConfig({
     nav: [
       {
         text: "指南",
-        link: "/zh/getting-start"
+        link: "/zh/getting-started"
       },
       {
         text: "成员",
@@ -34,7 +34,7 @@ export const zhConfig = defineConfig({
       provider: "local",
       options: {
         locales: {
-          root: {
+          zh: {
             translations: {
               button: {
                 buttonText: "搜索文档",
@@ -57,7 +57,7 @@ export const zhConfig = defineConfig({
       "/zh/": [
         {
           text: "快速开始",
-          link: "/zh/getting-start"
+          link: "/zh/getting-started"
         },
         {
           text: "进阶",

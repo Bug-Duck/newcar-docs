@@ -11,8 +11,8 @@ hero:
     alt: Newcar Logo
   actions:
     - theme: brand
-      text: Getting Start
-      link: /getting-start
+      text: Getting Started
+      link: /getting-started
     - theme: alt
       text: API Reference (unavailable now)
       link: /
