@@ -1,5 +1,5 @@
 ---
-title: Image
+title: ImagePlugin
 ---
 
 # 参数
