@@ -7,7 +7,7 @@ title： CoordinateSystem
 # 参数
 
 ```javascript
-CoordinateSystem(
+new CoordinateSystem(
   axisPositiveXLength: number,
   axisPositiveYLength: number,
   axisNegativeXLength: number,

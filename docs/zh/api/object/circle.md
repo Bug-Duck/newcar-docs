@@ -7,7 +7,7 @@ title: Circle
 # 参数
 
 ```javascript
-Circle({
+new Circle({
   startAngle?: number,
   endAngle?: number,
   borderColor?: string,

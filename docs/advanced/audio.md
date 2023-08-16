@@ -7,7 +7,7 @@ title: Audio
 First, create an audio object and set its playback time:
 
 ```javascript
-const { AudioItem } = newcar;
+import { AudioItem } from "newcar"
 
 const BGM = new AudioItem(
   "xxx.mp3", // Path to the audio file

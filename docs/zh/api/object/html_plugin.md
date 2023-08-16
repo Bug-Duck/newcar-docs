@@ -7,7 +7,7 @@ title: HTMLPlugin
 # 参数
 
 ```javascript
-HTMLPlugin(content: string, {})
+new HTMLPlugin(content: string, {})
 ```
 
 - `content` HTML的内容

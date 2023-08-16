@@ -26,27 +26,13 @@ yarn add newcar
 pnpm add newcar
 ```
 
-## Project Structure
-
-The following directory structure is for reference only. The actual usage may vary depending on the environment:
-
-```txt
-Project
-├─ src
-│  └─ index.js
-├─ public
-├─ index.html
-└─ package.json
-```
-
 ## Initialization
 
 First, create an animation object `Car` for `newcar` in `index.js`:
 
 ```javascript
 // src/index.js
-import * as newcar from "./node_modules/newcar/dist/newcar.js";
-const { Car } = newcar;
+import { Car } as newcar from "newcar";
 
 const animation = new Car(
   document.getElementById("animation"), // Get the DOM object of the canvas
@@ -83,11 +69,9 @@ The next step is to display something on the screen, for example, displaying `"H
 The `newcar` component library `newcar.object` contains various components. Here, we will use the `Text` component:
 
 ```javascript
-import * as newcar from "./node_modules/newcar/dist/newcar.js";
-const { Car } = newcar;
-const { Text } = newcar.object;
+import { Car, object } from "./node_modules/newcar/dist/newcar.js";
 
-const text = new Text("Hello world!", {
+const text = new object.Text("Hello world!", {
   x: 200, // Define the X coordinate
   y: 100, // Define the Y coordinate
   size: 30 // Define the font size
@@ -107,27 +91,23 @@ Now you will see the `"Hello world!"` text on the screen.
 Next, let's try to **move this text**. This requires using the `addAnimationItem` method. Here, we will add a `Translation` animation:
 
 ```javascript
-import * as newcar from "./node_modules/newcar/dist/newcar.js";
-const { Car } = newcar;
-const { Text } = newcar.object;
-const { EaseInSine } = newcar.interpolator;
-const { Translation } = newcar.animation;
+import { Car, object, interpolator, animation } from "newcar";
 
 const animation = new Car(document.getElementById("animation"), 60);
 
-const text = new Text("Hello world!", {
+const text = new object.Text("Hello world!", {
   x: 200,
   y: 100,
   size: 30
 });
 
 animation.addObject(text).addAnimationItem(
-  new Translation({
+  new animation.Translation({
     startAt: 0, // The animation starts at frame 0
     lastsFor: 30, // Lasts for 30 frames
     to: [200, 200], // Move from the current position to coordinates (200, 200)
     bindTo: text, // Bind the animation to the Text object
-    by: EaseInSineInterpolator // Set the easing curve
+    by: interpolator.EaseInSine // Set the easing curve
   })
 );
 

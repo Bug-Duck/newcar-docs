@@ -7,12 +7,12 @@ title: Parent-Child Components
 Objects in `newcar` can be nested using `children`. Here's how you can add them:
 
 ```javascript
-const child = new Text({
+const child = new object.Text({
   x: 200,
   y: 300
 });
 
-const father = new Carobj({
+const father = new object.Carobj({
   x: 100,
   y: 200,
   children: [child]

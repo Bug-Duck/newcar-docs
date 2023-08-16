@@ -12,9 +12,9 @@ In `newcar`, all animation classes inherit from the `AnimationBuilderItem` class
 ## Basic Framework
 
 ```javascript
-import * as newcar from "./node_modules/newcar/dist/newcar.js";
+import { animation } from "./node_modules/newcar/dist/newcar.js";
 
-class MyAnimationItem extends newcar.animation.AnimationBuilderItem {
+class MyAnimationItem extends animation.AnimationBuilderItem {
   constructor(datas) {
     this.startAt = datas.startAt;
     this.lastsFor = datas.lastsFor;
@@ -46,9 +46,9 @@ Next is the `onDrawFrame` function for the animation. This method takes two para
 - An underlying interface, which we won't go into detail here.
 
 ```javascript
-import * as newcar from "./node_modules/newcar/dist/newcar.js";
+import { animation } from "newcar";
 
-class MyAnimationItem extends newcar.animation.AnimationBuilderItem {
+class MyAnimationItem extends animation.AnimationBuilderItem {
   constructor(datas) {
     this.startAt = datas.startAt;
     this.lastsFor = datas.lastsFor;

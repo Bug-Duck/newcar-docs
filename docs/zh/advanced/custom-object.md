@@ -7,9 +7,9 @@ title: 自定义组件对象
 要自定义一个组件对象，需要继承 `Carobj` 类：
 
 ```javascript
-import * as newcar from "./node_modules/newcar/dist/newcar.js";
+import { object } from "newcar";
 
-class MyObject extends newcar.object.Carobj {
+class MyObject extends object.Carobj {
   constructor(datas) {
     super(datas);
     this.value = datas.value;
@@ -27,9 +27,9 @@ class MyObject extends newcar.object.Carobj {
 - `HTMLCanvasElement`：可选，是此动画绑定的 `<canvas>` 标签的 [DOM](https://developer.mozilla.org/zh-CN/docs/Web/API/Document_Object_Model/Introduction)。
 
 ```javascript
-import * as newcar from "./node_modules/newcar/dist/newcar.js";
+import { object } from "newcar";
 
-class MyObject extends newcar.object.Carobj {
+class MyObject extends object.Carobj {
   constructor(datas) {
     super(datas);
     this.value = datas.value;

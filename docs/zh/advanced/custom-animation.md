@@ -12,9 +12,9 @@ title: 自定义动画
 ## 基础框架
 
 ```javascript
-import * as newcar from "./node_modules/newcar/dist/newcar.js";
+import { animation } from "newcar";
 
-class MyAnimationItem extends newcar.animation.AnimationBuilderItem {
+class MyAnimationItem extends animation.AnimationBuilderItem {
   constructor(datas) {
     this.startAt = datas.startAt;
     this.lastsFor = datas.lastsFor;
@@ -46,9 +46,9 @@ class MyAnimationItem extends newcar.animation.AnimationBuilderItem {
 - 一个底层接口，我们暂不赘述。
 
 ```javascript
-import * as newcar from "./node_modules/newcar/dist/newcar.js";
+import { animation } from "newcar";
 
-class MyAnimationItem extends newcar.animation.AnimationBuilderItem {
+class MyAnimationItem extends animation.AnimationBuilderItem {
   constructor(datas) {
     this.startAt = datas.startAt;
     this.lastsFor = datas.lastsFor;

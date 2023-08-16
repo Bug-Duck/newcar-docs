@@ -26,30 +26,16 @@ yarn add newcar
 pnpm add newcar
 ```
 
-## 项目目录
-
-以下目录结构仅供参考，实际使用**以使用环境为准**：
-
-```txt
-Project
-├─ src
-│  └─ index.js
-├─ public
-├─ index.html
-└─ package.json
-```
-
 ## 初始化
 
 首先，在 `index.js` 中创建一个 `newcar` 的动画对象 `Car`：
 
 ```javascript
 // src/index.js
-import * as newcar from "./node_modules/newcar/dist/newcar.js";
-const { Car } = newcar;
+import { Car } as newcar from "newcar";
 
 const animation = new Car(
-  document.getElementById("animation"), // 获取 Canvas 的 DOM 对象
+  document.getElementById("animation"), // 获取canvas标签的dom节点
   60
 );
 ```
@@ -83,18 +69,16 @@ animation.play();
 `newcar` 的组件库 `newcar.object` 中包含各种组件，在这我们要用到的是其中的 `Text` 组件：
 
 ```javascript
-import * as newcar from "./node_modules/newcar/dist/newcar.js";
-const { Car } = newcar;
-const { Text } = newcar.object;
+import { Car, object } from "./node_modules/newcar/dist/newcar.js";
 
-const text = new Text("Hello world!", {
-  x: 200, // 定义 X 坐标
-  y: 100, // 定义 Y 轴坐标
-  size: 30 // 定义字符大小
+const text = new object.Text("Hello world!", {
+  x: 200, // 设置x轴坐标
+  y: 100, // 设置y轴坐标
+  size: 30 // 奢姿字体大小
 });
 
 const animation = new Car(document.getElementById("animation"), 60);
-animation.addObject(text); // 在动画中加入这个 Text 对象
+animation.addObject(text); // Add this Text object to the animation
 animation.play();
 ```
 
@@ -107,27 +91,23 @@ animation.play();
 接下来我们尝试**移动这个文字**，这需要用到 `addAnimationItem` 方法，这里，我们将添加一个 `Translation` 动画：
 
 ```javascript
-import * as newcar from "./node_modules/newcar/dist/newcar.js";
-const { Car } = newcar;
-const { Text } = newcar.object;
-const { EaseInSine } = newcar.interpolator;
-const { Translation } = newcar.animation;
+import { Car, object, interpolator, animation } from "newcar";
 
 const animation = new Car(document.getElementById("animation"), 60);
 
-const text = new Text("Hello world!", {
+const text = new object.Text("Hello world!", {
   x: 200,
   y: 100,
   size: 30
 });
 
 animation.addObject(text).addAnimationItem(
-  new Translation({
-    startAt: 0, // 动画在第 0 帧开始
-    lastsFor: 30, // 持续 30 帧
-    to: [200, 200], // 从原有的位置到坐标 (200, 200)
-    bindTo: text, // 将动画绑定在 Text 对象上
-    by: EaseInSineInterpolator // 设定变速曲线
+  new animation.Translation({
+    startAt: 0, // 此动画从第0帧开始
+    lastsFor: 30, // 持续30帧
+    to: [200, 200], // 移动到坐标为(200 ,200)的位置
+    bindTo: text, // 绑定动画到对象上
+    by: interpolator.EaseInSine // 设置变速曲线
   })
 );
 

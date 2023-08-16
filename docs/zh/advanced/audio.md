@@ -7,7 +7,7 @@ title: 音频
 首先，创建一个音频对象，并设定他的播放时间：
 
 ```javascript
-const { AudioItem } = newcar;
+import { AudioItem } from "newcar";
 
 const BGM = new AudioItem(
   "xxx.mp3", // 音频文件的路径

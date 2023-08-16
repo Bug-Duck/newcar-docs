@@ -7,7 +7,7 @@ title: Carobj
 # 参数
 
 ```javascript
-Carobj({
+new Carobj({
   x: number,
   y: number,
   scaleX?: number,

@@ -7,9 +7,9 @@ title: Custom Components Object
 To create a custom component object, you need to inherit the `Carobj` class:
 
 ```javascript
-import * as newcar from "./node_modules/newcar/dist/newcar.js";
+import { object } from "newcar";
 
-class MyObject extends newcar.object.Carobj {
+class MyObject extends object.Carobj {
   constructor(datas) {
     super(datas);
     this.value = datas.value;
@@ -27,9 +27,9 @@ This function accepts **two parameters** of the following **types**:
 - `HTMLCanvasElement` (optional): the [DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction) element of the `<canvas>` tag that this animation is bound to.
 
 ```javascript
-import * as newcar from "./node_modules/newcar/dist/newcar.js";
+import { object } from "newcar";
 
-class MyObject extends newcar.object.Carobj {
+class MyObject extends object.Carobj {
   constructor(datas) {
     super(datas);
     this.value = datas.value;
