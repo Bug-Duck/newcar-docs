@@ -18,7 +18,7 @@ const BGM = new AudioItem(
 Then add it to the animation object:
 
 ```javascript
-animation.addAudioItem(BGM); // `animation` is a `Car` object
+car.addAudioItem(BGM); // `animation` is a `Car` object
 ```
 
 At this point, it cannot play automatically due to browser restrictions on autoplaying audio. You need to allow playback manually.
@@ -29,7 +29,7 @@ If audio playback is allowed during the animation, `newcar` will automatically j
 
 ```javascript
 document.getElementById("id").onclick = () => {
-  animation.allowAudio();
+  car.allowAudio();
 };
 ```
 

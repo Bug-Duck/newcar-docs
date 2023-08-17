@@ -32,9 +32,9 @@ pnpm add newcar
 
 ```javascript
 // src/index.js
-import { Car } as newcar from "newcar";
+import { Car } from "newcar";
 
-const animation = new Car(
+const car = new Car(
   document.getElementById("animation"), // 获取canvas标签的dom节点
   60
 );
@@ -55,7 +55,7 @@ const animation = new Car(
 现在，动画还没动起来，所以我们需要**播放**它：
 
 ```javascript
-animation.play();
+car.play();
 ```
 
 :::info
@@ -77,9 +77,9 @@ const text = new object.Text("Hello world!", {
   size: 30 // 奢姿字体大小
 });
 
-const animation = new Car(document.getElementById("animation"), 60);
-animation.addObject(text); // Add this Text object to the animation
-animation.play();
+const car = new Car(document.getElementById("animation"), 60);
+car.addObject(text); // Add this Text object to the animation
+car.play();
 ```
 
 这时你会看到屏幕上出现 `"Hello world!"` 字符。
@@ -93,7 +93,7 @@ animation.play();
 ```javascript
 import { Car, object, interpolator, animation } from "newcar";
 
-const animation = new Car(document.getElementById("animation"), 60);
+const car = new Car(document.getElementById("animation"), 60);
 
 const text = new object.Text("Hello world!", {
   x: 200,
@@ -101,7 +101,7 @@ const text = new object.Text("Hello world!", {
   size: 30
 });
 
-animation.addObject(text).addAnimationItem(
+car.addObject(text).addAnimationItem(
   new animation.Translation({
     startAt: 0, // 此动画从第0帧开始
     lastsFor: 30, // 持续30帧
@@ -111,7 +111,7 @@ animation.addObject(text).addAnimationItem(
   })
 );
 
-animation.play();
+car.play();
 ```
 
 以上代码将会把 `text` 从 `(200, 100)` 移动到 `(200, 200)`，从第 0 帧开始，持续 30 帧。

@@ -18,7 +18,7 @@ const BGM = new AudioItem(
 然后在动画对象里添加它：
 
 ```javascript
-animation.addAudioItem(BGM); // `animation` 是一个 `Car` 对象
+car.addAudioItem(BGM); // `animation` 是一个 `Car` 对象
 ```
 
 此时他还不能播放，因为浏览器限制自动播放音频，所以需要手动允许播放。
@@ -29,7 +29,7 @@ animation.addAudioItem(BGM); // `animation` 是一个 `Car` 对象
 
 ```javascript
 document.getElementById("id").onclick = () => {
-  animation.allowAudio();
+  car.allowAudio();
 };
 ```
 

@@ -16,6 +16,7 @@ import { animation } from "./node_modules/newcar/dist/newcar.js";
 
 class MyAnimationItem extends animation.AnimationBuilderItem {
   constructor(datas) {
+    super();
     this.startAt = datas.startAt;
     this.lastsFor = datas.lastsFor;
     this.obj = datas.bindTo;
@@ -50,6 +51,7 @@ import { animation } from "newcar";
 
 class MyAnimationItem extends animation.AnimationBuilderItem {
   constructor(datas) {
+    super();
     this.startAt = datas.startAt;
     this.lastsFor = datas.lastsFor;
     this.obj = datas.bindTo;

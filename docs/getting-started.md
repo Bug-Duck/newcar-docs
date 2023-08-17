@@ -32,9 +32,9 @@ First, create an animation object `Car` for `newcar` in `index.js`:
 
 ```javascript
 // src/index.js
-import { Car } as newcar from "newcar";
+import { Car } from "newcar";
 
-const animation = new Car(
+const car = new Car(
   document.getElementById("animation"), // Get the DOM object of the canvas
   60
 );
@@ -55,7 +55,7 @@ Next, import this file in `index.html`:
 Now, the animation is not moving yet, so we need to **play** it:
 
 ```javascript
-animation.play();
+car.play();
 ```
 
 :::info
@@ -77,9 +77,9 @@ const text = new object.Text("Hello world!", {
   size: 30 // Define the font size
 });
 
-const animation = new Car(document.getElementById("animation"), 60);
-animation.addObject(text); // Add this Text object to the animation
-animation.play();
+const car = new Car(document.getElementById("animation"), 60);
+car.addObject(text); // Add this Text object to the animation
+car.play();
 ```
 
 Now you will see the `"Hello world!"` text on the screen.
@@ -93,7 +93,7 @@ Next, let's try to **move this text**. This requires using the `addAnimationItem
 ```javascript
 import { Car, object, interpolator, animation } from "newcar";
 
-const animation = new Car(document.getElementById("animation"), 60);
+const car = new Car(document.getElementById("animation"), 60);
 
 const text = new object.Text("Hello world!", {
   x: 200,
@@ -101,7 +101,7 @@ const text = new object.Text("Hello world!", {
   size: 30
 });
 
-animation.addObject(text).addAnimationItem(
+car.addObject(text).addAnimationItem(
   new animation.Translation({
     startAt: 0, // The animation starts at frame 0
     lastsFor: 30, // Lasts for 30 frames
@@ -111,7 +111,7 @@ animation.addObject(text).addAnimationItem(
   })
 );
 
-animation.play();
+car.play();
 ```
 
 The above code will move the `text` from `(200, 100)` to `(200, 200)` starting from frame 0 and lasting for 30 frames.
