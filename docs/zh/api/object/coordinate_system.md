@@ -8,24 +8,24 @@ title： CoordinateSystem
 
 ```javascript
 new CoordinateSystem(
-  axisPositiveXLength: number,
-  axisPositiveYLength: number,
-  axisNegativeXLength: number,
-  axisNegativeYLength: number,
+  x_max: number,
+  y_max: number,
+  x_min: number,
+  y_min: number,
   {
-    axisXDirection?: "left" | "right",
-    axisYDirection?: "top" | "bottom",
-    color?: string;
+    x_direction: "left" | "right",
+    y_direction: "top" | "bottom",
+    color: string;
   }
 )
 ```
 
-- `axisPositiveXLength` x轴的正半轴长度
-- `axisPositiveYLength` y轴的正半轴长度
-- `axisNegativeXLength` x轴的负半轴长度
-- `axisNegativeYLength` y轴的负半轴长度
-- `axisXDirection` x轴指向的方向
-- `axisYDirection` y轴指向的方向
+- `x_max` x轴的正半轴长度
+- `y_max` y轴的正半轴长度
+- `x_min` x轴的负半轴长度
+- `y_min` y轴的负半轴长度
+- `x_direction` x轴指向的方向
+- `y_direction` y轴指向的方向
 - `color`: 坐标系的颜色
 
 :::warning

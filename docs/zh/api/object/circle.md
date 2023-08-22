@@ -8,11 +8,11 @@ title: Circle
 
 ```javascript
 new Circle({
-  startAngle?: number,
-  endAngle?: number,
-  borderColor?: string,
-  borderWidth?: number,
-  fillColor?: string,
+  startAngle: number,
+  endAngle: number,
+  borderColor: string,
+  borderWidth: number,
+  fillColor: string,
 })
 ```
 
