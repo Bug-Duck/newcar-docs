@@ -20,10 +20,10 @@ new CoordinateSystem(
 )
 ```
 
-- `x_max` x轴的正半轴长度
-- `y_max` y轴的正半轴长度
-- `x_min` x轴的负半轴长度
-- `y_min` y轴的负半轴长度
+- `x_max` x轴的最大值
+- `y_max` y轴的最大值
+- `x_min` x轴的最小值
+- `y_min` y轴的最小值
 - `x_direction` x轴指向的方向
 - `y_direction` y轴指向的方向
 - `color`: 坐标系的颜色
