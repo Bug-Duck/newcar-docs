@@ -102,11 +102,10 @@ const text = new object.Text("Hello world!", {
 });
 
 car.addObject(text).addAnimationItem(
-  new animation.Translation({
+  new animation.Translation(text, {
     startAt: 0, // The animation starts at frame 0
     lastsFor: 30, // Lasts for 30 frames
     to: [200, 200], // Move from the current position to coordinates (200, 200)
-    bindTo: text, // Bind the animation to the Text object
     by: interpolator.EaseInSine // Set the easing curve
   })
 );

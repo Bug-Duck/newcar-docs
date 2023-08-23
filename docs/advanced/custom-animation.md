@@ -15,11 +15,11 @@ In `newcar`, all animation classes inherit from the `AnimationBuilderItem` class
 import { animation } from "./node_modules/newcar/dist/newcar.js";
 
 class MyAnimationItem extends animation.AnimationBuilderItem {
-  constructor(datas) {
+  constructor(obj, datas) {
     super();
     this.startAt = datas.startAt;
     this.lastsFor = datas.lastsFor;
-    this.obj = datas.bindTo;
+    this.obj = obj;
     // ......
   }
 
@@ -50,11 +50,11 @@ Next is the `onDrawFrame` function for the animation. This method takes two para
 import { animation } from "newcar";
 
 class MyAnimationItem extends animation.AnimationBuilderItem {
-  constructor(datas) {
+  constructor(obj, datas) {
     super();
     this.startAt = datas.startAt;
     this.lastsFor = datas.lastsFor;
-    this.obj = datas.bindTo;
+    this.obj = obj;
     // ......
   }
 
