@@ -45,7 +45,7 @@ class MyObject extends object.Carobj {
 }
 ```
 
-## onSet
+## `onSet`
 `onSet`函数会在动画开始前执行，用于提前加载图片等资源
 ```javascript
 class MyObject extends object.Carobj {
