@@ -31,7 +31,7 @@ With this feature, you can set a background and make objects in the scene become
 :::
 
 :::info
-In addition to coordinates, the **rotation angle** also follows the parent-child component principle.
+In addition to coordinates, the **rotation angle** and **Scale** also follows the parent-child component principle.
 
 > The rotation angle here refers to the angle of rotation relative to the entire coordinate system of the parent component, rather than the numerical value of the rotation angle for each component.
 
