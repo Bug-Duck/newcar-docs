@@ -16,6 +16,9 @@ hero:
     - theme: alt
       text: API Reference (unavailable now)
       link: /
+    - theme: alt
+      text: Demos
+      link: https://github.com/Bug-Duck/newcar-demos
 
 features:
   - title: Rich API interfaces 🛠️

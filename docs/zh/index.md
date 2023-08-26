@@ -16,6 +16,10 @@ hero:
     - theme: alt
       text: API 参考（暂不可用）
       link: /zh/
+    - theme: alt
+      text: 示例代码
+      link: https://github.com/Bug-Duck/newcar-demos
+
 
 features:
   - title: 丰富的 API 接口 🛠️
