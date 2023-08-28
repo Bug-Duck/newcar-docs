@@ -10,8 +10,8 @@ title: 自定义组件对象
 import { object } from "newcar";
 
 class MyObject extends object.Carobj {
-  constructor(datas) {
-    super(datas);
+  constructor(data) {
+    super(data);
     this.value = datas.value;
   }
 }
@@ -32,8 +32,8 @@ class MyObject extends object.Carobj {
 import { object } from "newcar";
 
 class MyObject extends object.Carobj {
-  constructor(datas) {
-    super(datas);
+  constructor(data) {
+    super(data);
     this.value = datas.value;
   }
 

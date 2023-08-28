@@ -10,9 +10,9 @@ To create a custom component object, you need to inherit the `Carobj` class:
 import { object } from "newcar";
 
 class MyObject extends object.Carobj {
-  constructor(datas) {
-    super(datas);
-    this.value = datas.value;
+  constructor(data) {
+    super(data);
+    this.value = data.value;
   }
 }
 ```
@@ -30,9 +30,9 @@ This function accepts **two parameters** of the following **types**:
 import { object } from "newcar";
 
 class MyObject extends object.Carobj {
-  constructor(datas) {
-    super(datas);
-    this.value = datas.value;
+  constructor(data) {
+    super(data);
+    this.value = data.value;
   }
 
   onDraw(ctx, ele) {

@@ -15,10 +15,10 @@ title: 自定义动画
 import { animation } from "newcar";
 
 class MyAnimationItem extends animation.AnimationBuilderItem {
-  constructor(obj, datas) {
+  constructor(obj, data) {
     super();
-    this.startAt = datas.startAt;
-    this.lastsFor = datas.lastsFor;
+    this.startAt = data.startAt;
+    this.lastsFor = data.lastsFor;
     this.obj = obj;
     // ......
   }
@@ -50,10 +50,10 @@ class MyAnimationItem extends animation.AnimationBuilderItem {
 import { animation } from "newcar";
 
 class MyAnimationItem extends animation.AnimationBuilderItem {
-  constructor(obj, datas) {
+  constructor(obj, data) {
     super();
-    this.startAt = datas.startAt;
-    this.lastsFor = datas.lastsFor;
+    this.startAt = data.startAt;
+    this.lastsFor = data.lastsFor;
     this.obj = obj;
     // ......
   }
