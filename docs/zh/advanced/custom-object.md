@@ -12,7 +12,7 @@ import { object } from "newcar";
 class MyObject extends object.Carobj {
   constructor(data) {
     super(data);
-    this.value = datas.value;
+    this.value = data.value;
   }
 }
 ```
@@ -34,7 +34,7 @@ import { object } from "newcar";
 class MyObject extends object.Carobj {
   constructor(data) {
     super(data);
-    this.value = datas.value;
+    this.value = data.value;
   }
 
   onDraw(ctx, ele) {
