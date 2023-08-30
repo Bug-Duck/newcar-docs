@@ -19,6 +19,10 @@ export const sharedConfig = defineConfig({
       {
         icon: "github",
         link: "https://github.com/Bug-Duck/newcar"
+      },
+      {
+        icon: "twitter",
+        link: "https://twitter.com/bugduckteam"
       }
     ],
     footer: {
