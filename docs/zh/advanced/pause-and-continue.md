@@ -2,6 +2,8 @@
 title: 暂停与继续
 ---
 
+# 暂停与继续
+
 # 暂停
 ```javascript
 car.pause(30)
