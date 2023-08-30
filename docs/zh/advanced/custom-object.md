@@ -69,9 +69,7 @@ export class Carobj {
     if (this.display === true) {
       this.onModify();
       ctx.save();
-      ctx.translate(this.x, this.y);
-      // ~~~~~~~~~~~~~~~~~~~~~~~~~~~
-      // 特别注意这里
+      ctx.translate(this.x, this.y); // 特别注意这里
       ctx.rotate(this.#rotation);
       ctx.scale(this.#scaleX, this.#scaleY);
       ctx.globalAlpha = this.#transparency;
