@@ -23,7 +23,11 @@ export const sharedConfig = defineConfig({
       {
         icon: "twitter",
         link: "https://twitter.com/bugduckteam"
-      }
+      },
+      {
+        icon: "telegram",
+        link: "https://t.me/newcar_js"
+      },
     ],
     footer: {
       message: "Released under the Apache-2.0 license",
