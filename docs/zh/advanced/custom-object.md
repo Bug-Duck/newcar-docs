@@ -46,7 +46,9 @@ class MyObject extends object.Carobj {
 ```
 
 ## `onSet`
+
 `onSet`函数会在动画开始前执行，用于提前加载图片等资源
+
 ```javascript
 class MyObject extends object.Carobj {
   // ...
@@ -57,9 +59,11 @@ class MyObject extends object.Carobj {
 ```
 
 ## onModify
+
 `onModify`函数会在每一帧调用，用于改变自身的值。
 
 ## 特别提醒
+
 当你想要在用户给定的x,y坐标处绘画，不需要将x, y传入，而是应该选择在(0, 0)处绘制，我们看看 `Carobj`的一段源代码
 
 ```javascript

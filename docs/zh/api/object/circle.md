@@ -12,8 +12,8 @@ new Circle({
   endAngle: number,
   borderColor: string,
   borderWidth: number,
-  fillColor: string,
-})
+  fillColor: string
+});
 ```
 
 - `startAngle` 圆开始的角度

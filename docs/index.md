@@ -14,8 +14,8 @@ hero:
       text: Getting Started
       link: /getting-started
     - theme: alt
-      text: API Reference (unavailable now)
-      link: /
+      text: API Reference
+      link: /api/
     - theme: alt
       text: Demos
       link: https://github.com/Bug-Duck/newcar-demos

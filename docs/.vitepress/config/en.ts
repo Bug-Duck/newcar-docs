@@ -57,6 +57,25 @@ export const enConfig = defineConfig({
             }
           ]
         }
+      ],
+      "/api/": [
+        {
+          text: "API Reference",
+          link: "/api/",
+          items: [
+            {
+              text: "Interface",
+              link: "/api/interface/",
+              items: [{ text: "carobject", link: "/api/interface/carobject" }]
+            },
+            {
+              text: "Object",
+              link: "/api/object/",
+              items: [{ text: "Carobj", link: "/api/object/carobj" }]
+            },
+            { text: "Animation", link: "/api/animation/" }
+          ]
+        }
       ]
     }
   }

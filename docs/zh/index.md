@@ -20,7 +20,6 @@ hero:
       text: 示例代码
       link: https://github.com/Bug-Duck/newcar-demos
 
-
 features:
   - title: 丰富的 API 接口 🛠️
     details: 强大多样的 API, 让动画自由度更高
