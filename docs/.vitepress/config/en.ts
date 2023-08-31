@@ -64,11 +64,6 @@ export const enConfig = defineConfig({
           link: "/api/",
           items: [
             {
-              text: "Interface",
-              link: "/api/interface/",
-              items: [{ text: "carobject", link: "/api/interface/carobject" }]
-            },
-            {
               text: "Object",
               link: "/api/object/",
               items: [{ text: "Carobj", link: "/api/object/carobj" }]
