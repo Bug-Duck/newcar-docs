@@ -1,7 +1,7 @@
 import { defineConfig } from "vitepress";
 
 export const enConfig = defineConfig({
-  lang: "zh-CN",
+  lang: "en-US",
   description: "The modern animation engine",
   themeConfig: {
     siteTitle: "Newcar Official Docs",
