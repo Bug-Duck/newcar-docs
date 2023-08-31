@@ -26,8 +26,8 @@ export const enConfig = defineConfig({
         link: "/members"
       },
       {
-        text: "Sponsor(CN)",
-        link: "https://afdian.net/a/acboxsky"
+        text: "Sponsor",
+        link: "https://afdian.net/a/newcar"
       }
     ],
     sidebar: {
