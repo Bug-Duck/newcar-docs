@@ -5,8 +5,6 @@ If you want to custom a car object, please drive a class from `Carobj` and overr
 
 ## `constructor()`
 
-- `data`?: `carobject`
-
 ```ts
 class Carobj {
   constructor(data?: {
