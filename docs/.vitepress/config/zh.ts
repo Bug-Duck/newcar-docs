@@ -26,8 +26,8 @@ export const zhConfig = defineConfig({
         link: "/zh/members"
       },
       {
-        text: "捐赠作者",
-        link: "https://afdian.net/a/acboxsky"
+        text: "捐赠",
+        link: "https://afdian.net/a/newcar"
       }
     ],
     search: {

@@ -9,19 +9,16 @@ title: 每帧回调
 ```javascript
 import { Car, object } from "newcar";
 
-const car = new Car(
-  document.getElementById("animation"),
-  60
-);
+const car = new Car(document.getElementById("animation"), 60);
 
 const textObject = new object.Text("Hello!", {});
 car.addAnimationItem(textObject);
 
 car.onUpdate((currentFrame) => {
   if (currentFrame === 30) {
-    textObject.text = "Hi!"
+    textObject.text = "Hi!";
   }
-})
+});
 ```
 
 以上代码设置 `textObject` 的文字是"Hello!", 并在第30帧后变为"Hi!"

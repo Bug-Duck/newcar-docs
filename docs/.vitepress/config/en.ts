@@ -1,7 +1,7 @@
 import { defineConfig } from "vitepress";
 
 export const enConfig = defineConfig({
-  lang: "zh-CN",
+  lang: "en-US",
   description: "The modern animation engine",
   themeConfig: {
     siteTitle: "Newcar Official Docs",
@@ -26,8 +26,8 @@ export const enConfig = defineConfig({
         link: "/members"
       },
       {
-        text: "Sponsor(CN)",
-        link: "https://afdian.net/a/acboxsky"
+        text: "Sponsor",
+        link: "https://afdian.net/a/newcar"
       }
     ],
     sidebar: {
@@ -55,6 +55,20 @@ export const enConfig = defineConfig({
               text: "Audio",
               link: "/advanced/audio"
             }
+          ]
+        }
+      ],
+      "/api/": [
+        {
+          text: "API Reference",
+          link: "/api/",
+          items: [
+            {
+              text: "Object",
+              link: "/api/object/",
+              items: [{ text: "Carobj", link: "/api/object/carobj" }]
+            },
+            { text: "Animation", link: "/api/animation/" }
           ]
         }
       ]
