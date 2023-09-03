@@ -40,7 +40,15 @@ export const enConfig = defineConfig({
           text: "Advanced",
           items: [
             {
-              text: "Parent-child components",
+              text: "Frame Callback",
+              link: "/advanced/callback-per-frame"
+            },
+            {
+              text: "Pause and Continue",
+              link: "/advanced/pause-and-continue"
+            },
+            {
+              text: "Parent-child Components",
               link: "/advanced/parent-child-components"
             },
             {
@@ -54,6 +62,10 @@ export const enConfig = defineConfig({
             {
               text: "Audio",
               link: "/advanced/audio"
+            },
+            {
+              text: "Export",
+              link: "/advanced/export"
             }
           ]
         }
