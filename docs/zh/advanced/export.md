@@ -18,8 +18,8 @@ car.exports(start, end, onfinish);
 
 ```javascript
 car.export(1, 300, (url) => {
-  window.href = url;
+  document.getElementById("link").href = url;
 });
 ```
 
-以上代码会记录在第1帧到第300帧之间的画面，并在记录完成后跳转到视频页面
+以上代码会记录在第1帧到第300帧之间的画面，并在记录完成后，点击此链接跳转至视频。

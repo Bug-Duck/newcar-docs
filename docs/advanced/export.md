@@ -18,8 +18,8 @@ Upon receiving the command, the exporter will jump to the starting frame and sta
 
 ```javascript
 car.export(1, 300, (url) => {
-  window.href = url;
+  document.getElementById("link").href = url;
 });
 ```
 
-The above code will capture the frames between the 1st and 300th frame and, after the capture is complete, redirect to the video page.
+The above code will capture the frames between the 1st and 300th frame and, after the capture is complete, click the link to jump to the video.
