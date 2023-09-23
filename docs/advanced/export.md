@@ -7,7 +7,7 @@ title: Export Video
 If you want to export the animation as a video, you can use the `exports` method of the `Car` object. It takes three parameters:
 
 ```javascript
-car.exports(start, end, onfinish);
+car.export(start, end, onfinish);
 ```
 
 - `start`: The frame from which to start saving the video.

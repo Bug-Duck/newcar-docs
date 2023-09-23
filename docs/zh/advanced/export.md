@@ -7,7 +7,7 @@ title: 导出视频
 如果想要导出动画为视频，那么就要用到 `Car` 对象中的 `exports` 方法，他接受三个参数
 
 ```javascript
-car.exports(start, end, onfinish);
+car.export(start, end, onfinish);
 ```
 
 - `start` 要保存的视频从哪一帧开始
