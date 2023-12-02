@@ -40,32 +40,8 @@ export const enConfig = defineConfig({
           text: "Advanced",
           items: [
             {
-              text: "Frame Callback",
-              link: "/advanced/callback-per-frame"
-            },
-            {
-              text: "Pause and Continue",
-              link: "/advanced/pause-and-continue"
-            },
-            {
-              text: "Parent-child Components",
-              link: "/advanced/parent-child-components"
-            },
-            {
-              text: "Custom Object",
-              link: "/advanced/custom-object"
-            },
-            {
-              text: "Custom Animation",
-              link: "/advanced/custom-animation"
-            },
-            {
-              text: "Audio",
-              link: "/advanced/audio"
-            },
-            {
-              text: "Export",
-              link: "/advanced/export"
+              text: "",
+              link: ""
             }
           ]
         }

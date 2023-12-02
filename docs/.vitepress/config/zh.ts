@@ -63,33 +63,9 @@ export const zhConfig = defineConfig({
           text: "进阶",
           items: [
             {
-              text: "每帧回调",
-              link: "/zh/advanced/callback-per-frame"
+              text: "",
+              link: ""
             },
-            {
-              text: "暂停与继续",
-              link: "/zh/advanced/pause-and-continue"
-            },
-            {
-              text: "父子组件",
-              link: "/zh/advanced/parent-child-components"
-            },
-            {
-              text: "自定义组件对象",
-              link: "/zh/advanced/custom-object"
-            },
-            {
-              text: "自定义动画",
-              link: "/zh/advanced/custom-animation"
-            },
-            {
-              text: "音频",
-              link: "/zh/advanced/audio"
-            },
-            {
-              text: "导出",
-              link: "/zh/advanced/export"
-            }
           ]
         }
       ]
