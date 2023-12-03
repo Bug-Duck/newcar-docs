@@ -38,7 +38,7 @@ And then you can choose your favorite framework to build your program. As a demo
 
 To create a animation by Newcar, we firstly need a animation object --- `Car`.
 
-Via `createCar()` to create a animation.
+Via `newcar()` to create a animation.
 
 ```javascript
 import * as $ from "newcar";
