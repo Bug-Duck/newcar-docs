@@ -40,8 +40,12 @@ export const enConfig = defineConfig({
           text: "Advanced",
           items: [
             {
-              text: "",
-              link: ""
+              text: "Parent-child Objects",
+              link: "/advanced/parent-child-objects"
+            },
+            {
+              text: "Recorder",
+              link: "/advanced/recorder"
             }
           ]
         }

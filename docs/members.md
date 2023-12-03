@@ -12,7 +12,7 @@ import { VPTeamMembers } from 'vitepress/theme'
 const members = [
   {
     avatar: 'https://avatars.githubusercontent.com/u/78635021?v=4',
-    name: 'Liu Chenyang',
+    name: 'Acbox Liu',
     title: 'Creator',
     links: [
       { icon: 'github', link: 'https://github.com/sheepbox8646' },

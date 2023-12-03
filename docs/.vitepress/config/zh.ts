@@ -65,7 +65,7 @@ export const zhConfig = defineConfig({
             {
               text: "",
               link: ""
-            },
+            }
           ]
         }
       ]

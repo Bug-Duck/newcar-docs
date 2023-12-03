@@ -11,19 +11,19 @@ Install the `newcar` with your preferred package manager:
 ### npm
 
 ```shell
-$ npm install newcar
+npm install newcar
 ```
 
 ### yarn
 
 ```shell
-$ yarn add newcar
+yarn add newcar
 ```
 
 ### pnpm
 
 ```shell
-$ pnpm add newcar
+pnpm add newcar
 ```
 
 ## Initialization
@@ -31,7 +31,7 @@ $ pnpm add newcar
 We suggest to use vite to build our animation, in there we use pnpm as a instance.
 
 ```shell
-$ pnpm create vite
+pnpm create vite
 ```
 
 And then you can choose your favorite framework to build your program. As a demo, we use native environment.
@@ -67,9 +67,7 @@ Newcar offers many objects so that you have more choice (We have basic lib and s
 
 ```javascript
 // First way
-const scene = $.scene([
-  new $.Text("Hello world!")
-], []);
+const scene = $.scene([new $.Text("Hello world!")], []);
 
 // Second way
 scene.add(new $.Text("Hello world!"));
@@ -77,7 +75,7 @@ scene.add(new $.Text("Hello world!"));
 
 If everything is okay, you may see a text object with "Hello world" appears on the canvas.
 
-## Let It Dynamic!
+## Let It Dynamic
 
 Let's talk about the callback function per frame. As the word, the function will be called in each frame, and it allow user getting the current time through a parameter.
 
@@ -91,16 +89,19 @@ There are also two ways to set the callback function.
 
 ```javascript
 // First way
-const scene = $.scene([], [
-  (time) => {
-    // ...
-  }
-])
+const scene = $.scene(
+  [],
+  [
+    (time) => {
+      // ...
+    }
+  ]
+);
 
 // Second way
 scene.update((time) => {
   // ...
-})
+});
 ```
 
 We need to use `animate()` to animate the object. The first parameter is the type of animations, the second is the holding time of animation, and the finally is more parameters.
@@ -110,8 +111,8 @@ scene.update((time) => {
   text.animate($.moveTo, 1, {
     x: 300,
     y: 300
-  })
-})
+  });
+});
 ```
 
 These codes will let the text move to (300, 300) during 1 second.
