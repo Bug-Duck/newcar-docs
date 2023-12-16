@@ -49,7 +49,7 @@ const animation = $.newcar("#canvas");
 And then, we need to create a scene for the animation and check out to it.
 
 ```javascript
-const scene = $.scene([], []);
+const scene = new $.Scene([], []);
 animation.scene = scene;
 ```
 
@@ -67,7 +67,7 @@ Newcar offers many objects so that you have more choice (We have basic lib and s
 
 ```javascript
 // First way
-const scene = $.scene([new $.Text("Hello world!")], []);
+const scene = new $.Scene([new $.Text("Hello world!")], []);
 
 // Second way
 scene.add(new $.Text("Hello world!"));
@@ -89,7 +89,7 @@ There are also two ways to set the callback function.
 
 ```javascript
 // First way
-const scene = $.scene(
+const scene = new $.Scene(
   [],
   [
     (time) => {
@@ -117,6 +117,6 @@ scene.update((time) => {
 
 These codes will let the text move to (300, 300) during 1 second.
 
-What? You say that the animation is monotonous? You also can use timing function to control the speed of animation, just use parameter `by`. Newcar also has some timing function built in, please refer to [https://www.desmos.com/calculator/yasltaa9um](https://www.desmos.com/calculator/yasltaa9um) to get more information.
+You also can use timing function to control the speed of animation, just use parameter `by`. Newcar also has some timing function built in, please refer to [https://www.desmos.com/calculator/yasltaa9um](https://www.desmos.com/calculator/yasltaa9um) to get more information.
 
 This is all the things of entry-level docs. If you like this project, please give us a star on GitHub.
