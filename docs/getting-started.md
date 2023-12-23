@@ -28,7 +28,7 @@ pnpm add newcar
 
 ## Initialization
 
-We suggest to use vite to build our animation, in there we use pnpm as a instance.
+We suggest to use Vite to build our animation, in there we use pnpm as a instance.
 
 ```shell
 pnpm create vite
@@ -79,12 +79,6 @@ If everything is okay, you may see a text object with "Hello world" appears on t
 
 Let's talk about the callback function per frame. As the word, the function will be called in each frame, and it allow user getting the current time through a parameter.
 
-:::warning
-
-The unit of the parameter is second, isn't frame!
-
-:::
-
 There are also two ways to set the callback function.
 
 ```javascript
@@ -99,23 +93,23 @@ const scene = new $.Scene(
 );
 
 // Second way
-scene.update((time) => {
+scene.update((frame) => {
   // ...
 });
 ```
 
-We need to use `animate()` to animate the object. The first parameter is the type of animations, the second is the holding time of animation, and the finally is more parameters.
+We need to use `animate()` to animate the object. The first parameter is the type of animations, the second is the holding frame of animation, and the finally is more parameters.
 
 ```javascript
 scene.update((time) => {
-  text.animate($.moveTo, 1, {
+  text.animate($.moveTo, 100, {
     x: 300,
     y: 300
   });
 });
 ```
 
-These codes will let the text move to (300, 300) during 1 second.
+These codes will let the text move to (300, 300) during 100 frames.
 
 You also can use timing function to control the speed of animation, just use parameter `by`. Newcar also has some timing function built in, please refer to [https://www.desmos.com/calculator/yasltaa9um](https://www.desmos.com/calculator/yasltaa9um) to get more information.
 
