@@ -16,10 +16,10 @@ animation.scene = scene;
 const recorder = new $.Recorder(animation);
 ```
 
-And then we need to set up a time to stop recording, and start it. (unit: second)
+And then we need to set up a time to stop recording, and start it.
 
 ```javascript
-recorder.start(100, (url) => {
+recorder.record(100, (url) => {
   console.log(url);
 });
 ```
