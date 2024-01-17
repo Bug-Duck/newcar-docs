@@ -1,23 +1,30 @@
 {
+  "type": "module",
   "scripts": {
     "prepare": "simple-git-hooks",
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs"
   },
-  "dependencies": {
-    "vue": "^3.3.4"
-  },
   "devDependencies": {
-    "markdownlint": "^0.29.0",
-    "markdownlint-cli": "^0.35.0",
-    "prettier": "3.0.0",
-    "simple-git-hooks": "^2.8.1",
-    "unocss": "^0.53.5",
-    "vitepress": "1.0.0-beta.5"
+    "prettier": "^3.2.4",
+    "vitepress": "1.0.0-rc.39",
+    "vue": "^3.4.14"
+  },
+  "pnpm": {
+    "peerDependencyRules": {
+      "ignoreMissing": [
+        "@algolia/client-search",
+        "search-insights"
+      ]
+    }
   },
   "simple-git-hooks": {
     "pre-commit": "pnpm prettier . --write && pnpm markdownlint docs/ && git add .",
     "preserveUnused": true
+  },
+  "dependencies": {
+    "markdownlint": "^0.33.0",
+    "markdownlint-cli": "^0.38.0"
   }
 }

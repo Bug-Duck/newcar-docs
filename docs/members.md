@@ -16,7 +16,7 @@ const members = [
     title: 'Creator',
     links: [
       { icon: 'github', link: 'https://github.com/sheepbox8646' },
-      { icon: 'twitter', link: 'https://twitter.com/AcboxSky' }
+      { icon: 'x', link: 'https://twitter.com/AcboxSky' }
     ]
   },
   {
@@ -25,7 +25,7 @@ const members = [
     title: 'Programmer',
     links: [
       { icon: 'github', link: 'https://github.com/onion108' },
-      { icon: 'twitter', link: 'https://twitter.com/2Nebell' }
+      { icon: 'x', link: 'https://twitter.com/2Nebell' }
     ]
   },
   {
@@ -34,7 +34,7 @@ const members = [
     title: 'Programmer',
     links: [
       { icon: 'github', link: 'https://github.com/samzhangjy' },
-      { icon: 'twitter', link: 'https://twitter.com/samzhangjy' }
+      { icon: 'x', link: 'https://twitter.com/samzhangjy' }
     ]
   },
   {
@@ -51,7 +51,7 @@ const members = [
     title: 'Documentation',
     links: [
       { icon: 'github', link: 'https://github.com/ifshizuku' },
-      { icon: 'twitter', link: 'https://twitter.com/ifszk' }
+      { icon: 'x', link: 'https://twitter.com/ifszk' }
     ]
   },
   {

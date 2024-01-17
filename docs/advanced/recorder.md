@@ -2,6 +2,8 @@
 title: Recorder
 ---
 
+# Recorder
+
 If you want to export the animation as video, Recorder will be you proper choice. It can recorded the animation and give out a video link, which can be exported.
 
 To use Recorder, you firstly need create it.
