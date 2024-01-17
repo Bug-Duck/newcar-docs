@@ -6,6 +6,7 @@ export const sharedConfig = defineConfig({
   cleanUrls: true,
   appearance: true,
   lastUpdated: true,
+  head: [["link", { rel: "icon", href: "/uni.webp", type: "image/webp" }]],
 
   themeConfig: {
     logo: {
