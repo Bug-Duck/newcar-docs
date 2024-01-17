@@ -3,23 +3,28 @@ import { defineConfig } from "vitepress";
 export const enConfig = defineConfig({
   lang: "en-US",
   description: "The modern animation engine",
+
   themeConfig: {
     siteTitle: "Newcar Official Docs",
-    editLink: {
-      text: "Suggest to this page",
-      pattern: "https://github.com/Bug-Duck/newcar-docs/tree/main/docs/:path"
-    },
     outline: {
-      label: "This page"
+      label: "On this page"
     },
     docFooter: {
       prev: "Previous",
       next: "Next"
     },
+    editLink: {
+      text: "Suggest to this page",
+      pattern: "https://github.com/Bug-Duck/newcar-docs/tree/main/docs/:path"
+    },
     nav: [
       {
         text: "Tutorials",
         link: "/getting-started"
+      },
+      {
+        text: "API Reference",
+        link: "/api/"
       },
       {
         text: "Members",
@@ -40,7 +45,7 @@ export const enConfig = defineConfig({
           text: "Advanced",
           items: [
             {
-              text: "Parent-child Objects",
+              text: "Parent and Child Objects",
               link: "/advanced/parent-child-objects"
             },
             {
@@ -59,8 +64,7 @@ export const enConfig = defineConfig({
               text: "Object",
               link: "/api/object/",
               items: [{ text: "Carobj", link: "/api/object/carobj" }]
-            },
-            { text: "Animation", link: "/api/animation/" }
+            }
           ]
         }
       ]

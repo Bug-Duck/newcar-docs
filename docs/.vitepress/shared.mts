@@ -1,27 +1,25 @@
 import { defineConfig } from "vitepress";
-import UnoCSS from "unocss/vite";
 
 export const sharedConfig = defineConfig({
   title: "Newcar",
-  appearance: "dark",
+  titleTemplate: "Newcar Docs",
+  cleanUrls: true,
+  appearance: true,
   lastUpdated: true,
-  head: [["link", { rel: "icon", href: "/uni.webp", type: "image/webp" }]],
+
   themeConfig: {
     logo: {
       light: "/dark.webp",
       dark: "/light.webp"
     },
-    outline: 2,
-    search: {
-      provider: "local"
-    },
+    outline: [2, 3],
     socialLinks: [
       {
         icon: "github",
         link: "https://github.com/Bug-Duck/newcar"
       },
       {
-        icon: "twitter",
+        icon: "x",
         link: "https://twitter.com/bugduckteam"
       }
     ],
@@ -29,8 +27,5 @@ export const sharedConfig = defineConfig({
       message: "Released under the Apache-2.0 license",
       copyright: "Copyright © 2023-present BugDuck"
     }
-  },
-  vite: {
-    plugins: [UnoCSS()]
   }
 });

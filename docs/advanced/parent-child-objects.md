@@ -1,6 +1,8 @@
 ---
-title: Parent-child Objects
+title: Parent and Child Objects
 ---
+
+# Parent and Child Objects
 
 Objects in `newcar` can be nested using `children`. Here's how you can add them:
 

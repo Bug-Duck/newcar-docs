@@ -1,7 +1,7 @@
+import { sharedConfig } from "./shared.mts";
+import { enConfig } from "./en.mts";
+
 import { defineConfig } from "vitepress";
-import { sharedConfig } from "./shared";
-import { zhConfig } from "./zh";
-import { enConfig } from "./en";
 
 export default defineConfig({
   ...sharedConfig,
