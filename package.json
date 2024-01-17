@@ -8,6 +8,7 @@
   },
   "devDependencies": {
     "prettier": "^3.2.4",
+    "simple-git-hooks": "^2.9.0",
     "vitepress": "1.0.0-rc.39",
     "vue": "^3.4.14"
   },
