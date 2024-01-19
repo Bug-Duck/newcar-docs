@@ -12,7 +12,7 @@ To use Recorder, you firstly need create it.
 import * as $ from "newcar";
 
 const animation = $.newcar("#canvas");
-const scene = $.scene([], []);
+const scene = $.scene();
 animation.scene = scene;
 
 const recorder = new $.Recorder(animation);
@@ -24,6 +24,7 @@ And then we need to set up a time to stop recording, and start it.
 recorder.record(100, (url) => {
   console.log(url);
 });
+animation.play();
 ```
 
 the second parameter is a callback function, which accepts a parameter that includes the url of video.

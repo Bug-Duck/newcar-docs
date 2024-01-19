@@ -2,11 +2,17 @@
 title: Parent and Child Objects
 ---
 
+<script>
+import { Demo } from "../demos/tutorials/advanced/Demo.vue";
+</script>
+
 # Parent and Child Objects
 
 Objects in `newcar` can be nested using `children`. Here's how you can add them:
 
 ```javascript
+import * as $ from "newcar";
+
 const child = new $.Text("Hello world!", {
   x: 200,
   y: 300
@@ -19,7 +25,7 @@ const father = new $.Carobj({
 });
 
 // Alternatively, you can use
-father.addChildren(child);
+father.add(child);
 ```
 
 In this case, the coordinates `(200, 300)` for `child` are not relative to the top-left corner of the canvas, but rather relative to the position of its parent component.
@@ -36,3 +42,15 @@ In addition to coordinates, the **rotation angle** and **Scale** also follows th
 > The rotation angle here refers to the angle of rotation relative to the entire coordinate system of the parent component, rather than the numerical value of the rotation angle for each component.
 
 :::
+
+But save object into variable is so troublesome and low-speed, so after version 0.7.0, we suggest to use chain syntax:
+
+```javascript
+import * as $ from "newcar";
+
+const animation = $.newcar("canvas");
+
+const scene = new $.Scene().add(new $.Carobj().add(new $.Text("Hello world!")));
+
+animation.play();
+```
