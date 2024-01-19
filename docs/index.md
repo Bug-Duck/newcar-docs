@@ -24,4 +24,6 @@ features:
     details: Based on HTML Canvas, it facilitates the development of graphic functionalities
   - title: High degree of customization ⚙️
     details: Strong customizability, allowing for the creation of one's own animation style
+  - title: Chain syntax ⛓️
+    details: You can use chain syntax and signals system instead of saving object into variable
 ---

@@ -70,6 +70,15 @@ const members = [
       },
     ]
   },
+  {
+    avatar: 'https://avatars.githubusercontent.com/u/29159838?v=4',
+    name: 'Hydration',
+    title: 'Programmer',
+    links: [
+      { icon: 'github', link: 'https://github.com/hydrati' },
+      { icon: 'x', link: 'https://twitter.com/hyachano' }
+    ]
+  },
 ]
 </script>
 
