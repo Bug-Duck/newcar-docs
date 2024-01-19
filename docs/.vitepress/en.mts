@@ -51,6 +51,10 @@ export const enConfig = defineConfig({
             {
               text: "Recorder",
               link: "/advanced/recorder"
+            },
+            {
+              text: "Signals System",
+              link: "/advanced/signals-system"
             }
           ]
         }
