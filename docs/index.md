@@ -20,10 +20,10 @@ hero:
 features:
   - title: Rich API interfaces 🛠️
     details: Powerful and diverse APIs that provide greater freedom in creating animations
-  - title: Based on the native Canvas API 🧬
-    details: Based on HTML Canvas, it facilitates the development of graphic functionalities
+  - title: Based on CanvasKit-WASM 🧬
+    details: Based on CanvasKit-WASM, which reduced communication and data exchange between CPU and GPU ensures strong animation speed
   - title: High degree of customization ⚙️
     details: Strong customizability, allowing for the creation of one's own animation style
   - title: Chain syntax ⛓️
-    details: You can use chain syntax and signals system instead of saving object into variable
+    details: You can use chain syntax instead of saving object into variable, which makes the development efficient
 ---

@@ -40,36 +40,48 @@ And then you can choose your favorite framework to build your program. As a demo
 
 To create a animation by Newcar, we firstly need a animation object --- `Car`.
 
-Via `newcar` to create a animation.
+Via `newcar` or `createCar` to create a animation.
 
 ```javascript
-import * as $ from "newcar";
+import { createCar, Scene } from "newcar";
 
-const animation = $.newcar("#canvas");
+const animation = createCar("#canvas");
 ```
 
-And then, we need to create a scene for the animation and check out to it.
+Defining a `<canvas>` tag and set the id to `canvas`:
+
+```html
+<canvas id="canvas" width="1600" height="900"></canvas>
+```
+
+And then, we are going to create a scene for the animation and check out to it.
 
 ```javascript
-const scene = new $.Scene();
+const scene = new Scene();
 animation.scene = scene;
 ```
 
-The last step is playing it!
+The last step is that when the canvaskit was loaded play it:
 
 ```javascript
-animation.play();
+animation.on("ready-to-play", () => {
+  animation.play();
+});
 ```
 
-Now, the animation has been ran, in the following docs, we'll let it do something absorbing.
+Now, the animation has been ran, but there are no anything on the canvas, let it do something absorbing.
 
 ### Add a Object
 
 Newcar offers many objects so that you have more choice (We have basic lib and some offical mods, please refer to API Docs.) In this instance, we use `Text` as a example.
 
 ```javascript
+import { createCar, Scene, Text } from "newcar";
+
+// Omit the existing code here.
+
 scene.add(
-  new $.Text("Hello world!", {
+  new Text("Hello world!", {
     x: 100,
     y: 100,
     size: 50
@@ -86,13 +98,17 @@ We use async function to control objects, the first paramter is itself, you can 
 The codes below these texts can wait 100 frames and change the text to "Hi world".
 
 ```javascript
+import { createCar, Scene, Text, sleep } from "newcar";
+
+// Omit the existing code here.
+
 const scene = new $.Scene().add(
-  new $.Text("Hello world", {
+  new Text("Hello world", {
     x: 100,
     y: 100,
     size: 50
   }).setup(async (obj) => {
-    await $.sleep(100);
+    await sleep(100);
     obj.text = "Hi world";
   })
 );
@@ -103,14 +119,16 @@ const scene = new $.Scene().add(
 We need to use `animate()` to animate the object. The first parameter is the function of animations, the second is the holding frame of animation, and the finally is more parameters.
 
 ```javascript
+import { createCar, Scene, Text, sleep, move } from "newcar";
+
 const scene = new $.Scene().add(
-  new $.Text("Hello world", {
+  new Text("Hello world", {
     x: 100,
     y: 100,
     size: 50
   }).setup(async (obj) => {
-    await $.sleep(100);
-    obj.animate($.move, 100, {
+    await sleep(100);
+    obj.animate(move, 100, {
       toX: 300,
       toY: 300
     });
