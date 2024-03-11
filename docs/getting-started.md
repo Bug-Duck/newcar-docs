@@ -2,7 +2,7 @@
 title: Getting Started
 ---
 
-# Getting Started <Badge type="tip" text="^0.7.0" />
+# Getting Started <Badge type="tip" text="^0.8.0" />
 
 ## Installation
 
