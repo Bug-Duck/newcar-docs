@@ -54,6 +54,18 @@ Defining a `<canvas>` tag and set the id to `canvas`:
 <canvas id="canvas" width="1600" height="900"></canvas>
 ```
 
+Then, we need to choose CanvasKit-WASM's file, install CanvasKit-WASM and import `config` to change settings:
+
+```shell
+pnpm add canvaskit-wasm@0.39.1
+```
+
+```typescript
+import { config } from "newcar";
+
+config.canvaskitWasmFile = "../node_modules/canvaskit-wasm/bin/canvaskit.wasm";
+```
+
 And then, we are going to create a scene for the animation and check out to it.
 
 ```javascript
