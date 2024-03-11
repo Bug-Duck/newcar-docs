@@ -45,16 +45,16 @@ export const enConfig = defineConfig({
           text: "Advanced",
           items: [
             {
+              text: "Optional Parameters",
+              link: "/advanced/optional-parameters"
+            },
+            {
               text: "Parent and Child Objects",
               link: "/advanced/parent-child-objects"
             },
             {
               text: "Recorder",
               link: "/advanced/recorder"
-            },
-            {
-              text: "Signals System",
-              link: "/advanced/signals-system"
             }
           ]
         }
