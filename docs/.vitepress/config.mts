@@ -14,7 +14,7 @@ export default defineConfig({
       ...enConfig
     },
     zh: {
-      label: "Chinese",
+      label: "中文(简体)",
       link: "/zh",
       ...zhConfig
     }
