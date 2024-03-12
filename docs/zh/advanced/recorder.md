@@ -13,7 +13,7 @@ import * as $ from "newcar";
 $.config.canvaskitWasmFile = "...";
 
 const animation = $.newcar("#canvas");
-const scene = $.scene();
+const scene = new $.Scene();
 animation.scene = scene;
 
 const recorder = new $.Recorder(animation);
