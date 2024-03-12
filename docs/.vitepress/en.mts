@@ -53,6 +53,10 @@ export const enConfig = defineConfig({
               link: "/advanced/parent-child-objects"
             },
             {
+              text: "setup and setUpdate",
+              link: "/advanced/setup-and-setupdate"
+            },
+            {
               text: "Provide-Inject system",
               link: "/zh/advanced/provide-inject-system"
             },

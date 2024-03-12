@@ -53,6 +53,10 @@ export const zhConfig = defineConfig({
               link: "/zh/advanced/parent-child-objects"
             },
             {
+              text: "setup与setUpdate",
+              link: "/zh/advanced/setup-and-setupdate"
+            },
+            {
               text: "注入",
               link: "/zh/advanced/provide-inject-system"
             },
