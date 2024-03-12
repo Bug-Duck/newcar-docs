@@ -58,7 +58,7 @@ export const enConfig = defineConfig({
             },
             {
               text: "Provide-Inject system",
-              link: "/zh/advanced/provide-inject-system"
+              link: "/advanced/provide-inject-system"
             },
             {
               text: "Recorder",
