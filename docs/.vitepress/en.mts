@@ -53,6 +53,10 @@ export const enConfig = defineConfig({
               link: "/advanced/parent-child-objects"
             },
             {
+              text: "Provide-Inject system",
+              link: "/zh/advanced/provide-inject-system"
+            },
+            {
               text: "Recorder",
               link: "/advanced/recorder"
             }
@@ -65,9 +69,9 @@ export const enConfig = defineConfig({
           link: "/api/",
           items: [
             {
-              text: "Object",
-              link: "/api/object/",
-              items: [{ text: "Carobj", link: "/api/object/carobj" }]
+              text: "CarObject",
+              link: "/api/carobject/",
+              items: [{ text: "Carobj", link: "/api/object/carobject" }]
             }
           ]
         }

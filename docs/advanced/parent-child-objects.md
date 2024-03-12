@@ -2,16 +2,13 @@
 title: Parent and Child Objects
 ---
 
-<script>
-import { Demo } from "../demos/tutorials/advanced/Demo.vue";
-</script>
-
 # Parent and Child Objects
 
 Objects in `newcar` can be nested using `children`. Here's how you can add them:
 
 ```javascript
 import * as $ from "newcar";
+$.config.canvaskitWasmFile = "...";
 
 const child = new $.Text("Hello world!", {
   x: 200,

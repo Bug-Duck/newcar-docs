@@ -10,6 +10,7 @@ To use Recorder, you firstly need create it.
 
 ```javascript
 import * as $ from "newcar";
+$.config.canvaskitWasmFile = "...";
 
 const animation = $.newcar("#canvas");
 const scene = $.scene();
