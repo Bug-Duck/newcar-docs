@@ -20,7 +20,7 @@ export const zhConfig = defineConfig({
     nav: [
       {
         text: "文档",
-        link: "/getting-started"
+        link: "/zh/getting-started"
       },
       {
         text: "API参考",
@@ -28,7 +28,7 @@ export const zhConfig = defineConfig({
       },
       {
         text: "项目成员",
-        link: "/members"
+        link: "/zh/members"
       },
       {
         text: "赞助",
