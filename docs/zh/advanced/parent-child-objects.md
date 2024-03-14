@@ -48,6 +48,4 @@ import * as $ from "newcar";
 const animation = $.newcar("canvas");
 
 const scene = new $.Scene().add(new $.Carobj().add(new $.Text("Hello world!")));
-
-animation.play();
 ```

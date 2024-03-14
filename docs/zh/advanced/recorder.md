@@ -25,7 +25,6 @@ const recorder = new $.Recorder(animation);
 recorder.record(100, (url) => {
   console.log(url);
 });
-animation.play();
 ```
 
 第二个参数是一个回调函数，它接受一个包含视频 url 的参数。

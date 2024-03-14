@@ -57,12 +57,25 @@ export const zhConfig = defineConfig({
               link: "/zh/advanced/setup-and-setupdate"
             },
             {
+              text: "色彩系统",
+              link: "zh/advanced/color-system"
+            },
+            {
               text: "注入",
               link: "/zh/advanced/provide-inject-system"
             },
             {
               text: "录制器",
               link: "/zh/advanced/recorder"
+            },
+            {
+              text: "自定义",
+              items: [
+                {
+                  text: "自定义组件",
+                  link: "/zh/custom/custom-carobject"
+                }
+              ]
             }
           ]
         }

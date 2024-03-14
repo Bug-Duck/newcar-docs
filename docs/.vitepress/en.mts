@@ -57,12 +57,25 @@ export const enConfig = defineConfig({
               link: "/advanced/setup-and-setupdate"
             },
             {
+              text: "Color System",
+              link: "/advanced/color-system"
+            },
+            {
               text: "Provide-Inject system",
               link: "/advanced/provide-inject-system"
             },
             {
               text: "Recorder",
               link: "/advanced/recorder"
+            },
+            {
+              text: "Custom",
+              items: [
+                {
+                  text: "Custom Object",
+                  link: "/custom/custom-carobject"
+                }
+              ]
             }
           ]
         }
