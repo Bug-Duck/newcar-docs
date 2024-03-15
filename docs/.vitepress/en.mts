@@ -45,6 +45,10 @@ export const enConfig = defineConfig({
           text: "Advanced",
           items: [
             {
+              text: "Animation",
+              link: "advanced/animation"
+            },
+            {
               text: "Optional Parameters",
               link: "/advanced/optional-parameters"
             },
@@ -67,15 +71,15 @@ export const enConfig = defineConfig({
             {
               text: "Recorder",
               link: "/advanced/recorder"
-            },
+            }
+          ]
+        },
+        {
+          text: "Custom",
+          items: [
             {
-              text: "Custom",
-              items: [
-                {
-                  text: "Custom Object",
-                  link: "/custom/custom-carobject"
-                }
-              ]
+              text: "Custom Object",
+              link: "/custom/custom-carobject"
             }
           ]
         }

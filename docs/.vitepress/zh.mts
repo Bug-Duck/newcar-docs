@@ -44,6 +44,11 @@ export const zhConfig = defineConfig({
         {
           text: "进阶",
           items: [
+            ,
+            {
+              text: "动画",
+              link: "/zh/advanced/animation"
+            },
             {
               text: "可选参数",
               link: "/zh/advanced/optional-parameters"
@@ -67,15 +72,15 @@ export const zhConfig = defineConfig({
             {
               text: "录制器",
               link: "/zh/advanced/recorder"
-            },
+            }
+          ]
+        },
+        {
+          text: "自定义",
+          items: [
             {
-              text: "自定义",
-              items: [
-                {
-                  text: "自定义组件",
-                  link: "/zh/custom/custom-carobject"
-                }
-              ]
+              text: "自定义组件",
+              link: "/zh/custom/custom-carobject"
             }
           ]
         }
