@@ -36,67 +36,8 @@ export const enConfig = defineConfig({
       }
     ],
     sidebar: {
-      "/": [
-        {
-          text: "Getting Started",
-          link: "/getting-started"
-        },
-        {
-          text: "Advanced",
-          items: [
-            {
-              text: "Animation",
-              link: "advanced/animation"
-            },
-            {
-              text: "Optional Parameters",
-              link: "/advanced/optional-parameters"
-            },
-            {
-              text: "Parent and Child Objects",
-              link: "/advanced/parent-child-objects"
-            },
-            {
-              text: "setup and setUpdate",
-              link: "/advanced/setup-and-setupdate"
-            },
-            {
-              text: "Color System",
-              link: "/advanced/color-system"
-            },
-            {
-              text: "Provide-Inject system",
-              link: "/advanced/provide-inject-system"
-            },
-            {
-              text: "Recorder",
-              link: "/advanced/recorder"
-            }
-          ]
-        },
-        {
-          text: "Custom",
-          items: [
-            {
-              text: "Custom Object",
-              link: "/custom/custom-carobject"
-            }
-          ]
-        }
-      ],
-      "/api/": [
-        {
-          text: "API Reference",
-          link: "/api/",
-          items: [
-            {
-              text: "CarObject",
-              link: "/api/carobject/",
-              items: [{ text: "Carobj", link: "/api/object/carobject" }]
-            }
-          ]
-        }
-      ]
+      "/": [],
+      "/api/": []
     }
   }
 });

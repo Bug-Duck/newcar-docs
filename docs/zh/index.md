@@ -27,3 +27,9 @@ features:
   - title: 链式语法 ⛓️
     details: 链式语法替代将对象保存为变量，使得开发更加高效
 ---
+
+<br/><br/><br/>
+
+<center>
+此文档的版本为0.9.0+，但尚未发布，请参阅GitHub存储库的下一个分支以获取最新消息。要获取0.8.0版本之前的文档，请参阅<a href="newcar-old.netlify.app">newcar-old.netlify.app</a>
+</center>
