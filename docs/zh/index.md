@@ -31,5 +31,5 @@ features:
 <br/><br/><br/>
 
 <center>
-此文档的版本为0.9.0+，但尚未发布，请参阅GitHub存储库的下一个分支以获取最新消息。要获取0.8.0版本之前的文档，请参阅<a href="newcar-old.netlify.app">newcar-old.netlify.app</a>
+此文档的版本为0.9.0+，但尚未发布，请参阅GitHub存储库的下一个分支以获取最新消息。要获取0.8.0版本之前的文档，请参阅<a href="https://newcar-old.netlify.app">newcar-old.netlify.app</a>
 </center>

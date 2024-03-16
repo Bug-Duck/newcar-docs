@@ -30,4 +30,4 @@ features:
 
 <br/><br/><br/>
 
-<center style="font-size: 30px; color: red">This documentation is version 0.9.0+ but it was not published, please refer to out GitHub repository's next branch to get the latest news. To get the documentation before version 0.8.0, please refer to <a href="newcar-old.netlify.app">newcar-old.netlify.app</a></center>
+<center style="font-size: 30px; color: red">This documentation is version 0.9.0+ but it was not published, please refer to out GitHub repository's next branch to get the latest news. To get the documentation before version 0.8.0, please refer to <a href="https://newcar-old.netlify.app">newcar-old.netlify.app</a></center>
