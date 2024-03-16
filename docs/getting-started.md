@@ -2,6 +2,10 @@
 title: Getting Started
 ---
 
+:::info
+This document is an obsolete and unpublished version 0.8.0 document. The latest documentation can be found in [newcar.js.org](newcar.js.org)
+:::
+
 # Getting Started <Badge type="tip" text="^0.8.0" />
 
 ## Installation

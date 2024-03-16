@@ -2,6 +2,10 @@
 title: 入门指南
 ---
 
+:::info
+此文档为已经废弃且未发布的version 0.8.0的文档。最新文档请参见[newcar.js.org](newcar.js.org)
+:::
+
 # 入门指南 <Badge type="tip" text="^0.8.0" />
 
 ## 安装
