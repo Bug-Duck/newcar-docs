@@ -13,7 +13,7 @@ const members = [
   {
     avatar: 'https://avatars.githubusercontent.com/u/78635021?v=4',
     name: 'Acbox Liu',
-    title: 'Creator',
+    title: '作者 | 代码贡献者',
     links: [
       { icon: 'github', link: 'https://github.com/sheepbox8646' },
       { icon: 'x', link: 'https://twitter.com/AcboxSky' }
@@ -22,7 +22,7 @@ const members = [
   {
     avatar: 'https://avatars.githubusercontent.com/u/57032603?v=4',
     name: '27Onion Nebell',
-    title: 'Programmer',
+    title: '代码贡献者',
     links: [
       { icon: 'github', link: 'https://github.com/onion108' },
       { icon: 'x', link: 'https://twitter.com/2Nebell' }
@@ -31,7 +31,7 @@ const members = [
   {
     avatar: 'https://avatars.githubusercontent.com/u/56634385?v=4',
     name: 'Sam Zhang',
-    title: 'Programmer',
+    title: '代码贡献者',
     links: [
       { icon: 'github', link: 'https://github.com/samzhangjy' },
       { icon: 'x', link: 'https://twitter.com/samzhangjy' }
@@ -40,7 +40,7 @@ const members = [
   {
     avatar: 'https://avatars.githubusercontent.com/u/110272607?v=4',
     name: 'PrairieFire2b',
-    title: 'Programmer',
+    title: '代码贡献者',
     links: [
       { icon: 'github', link: 'https://github.com/PrairieFire2b' },
     ]
@@ -48,7 +48,7 @@ const members = [
   {
     avatar: 'https://avatars.githubusercontent.com/u/73536163?v=4',
     name: 'Shizuku',
-    title: 'Documentation',
+    title: '文档维护者',
     links: [
       { icon: 'github', link: 'https://github.com/ifshizuku' },
       { icon: 'x', link: 'https://twitter.com/ifszk' }
@@ -57,7 +57,7 @@ const members = [
   {
     avatar: 'https://avatars.githubusercontent.com/u/104210832?v=4',
     name: 'montmorillonite',
-    title: 'Programmer | Documentation',
+    title: '代码贡献者 | 文档维护者',
     links: [
       { icon: 'github', link: 'https://github.com/montmorill' },
       {
@@ -73,7 +73,7 @@ const members = [
   {
     avatar: 'https://avatars.githubusercontent.com/u/29159838?v=4',
     name: 'Hydration',
-    title: 'Programmer',
+    title: '代码贡献者',
     links: [
       { icon: 'github', link: 'https://github.com/hydrati' },
       { icon: 'x', link: 'https://twitter.com/hyachano' }

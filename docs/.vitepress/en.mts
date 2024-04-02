@@ -36,7 +36,12 @@ export const enConfig = defineConfig({
       }
     ],
     sidebar: {
-      "/": [],
+      "/": [
+        {
+          text: "Getting Started",
+          link: "/getting-started"
+        }
+      ],
       "/api/": []
     }
   }

@@ -36,7 +36,12 @@ export const zhConfig = defineConfig({
       }
     ],
     sidebar: {
-      "/": [],
+      "/": [
+        {
+          text: "入门指南",
+          link: "zh/getting-started"
+        }
+      ],
       "/api/": []
     }
   }
