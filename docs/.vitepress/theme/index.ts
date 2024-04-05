@@ -1,17 +1,18 @@
 // https://vitepress.dev/guide/custom-theme
 import { h } from "vue";
-import type { Theme } from "vitepress";
-import DefaultTheme from "vitepress/theme";
+import Theme from "vitepress/theme";
 import "./style.css";
+import "virtual:uno.css";
+import Status from "./components/Status.vue";
 
 export default {
-  extends: DefaultTheme,
+  extends: Theme,
   Layout: () => {
-    return h(DefaultTheme.Layout, null, {
-      // https://vitepress.dev/guide/extending-default-theme#layout-slots
+    return h(Theme.Layout, null, {
+      "home-hero-before": () => h(Status)
     });
   },
   enhanceApp({ app, router, siteData }) {
     // ...
   }
-} satisfies Theme;
+};

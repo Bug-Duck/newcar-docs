@@ -1,3 +1,5 @@
+import UnoCSS from "unocss/vite";
+
 import { sharedConfig } from "./shared.mts";
 import { enConfig } from "./en.mts";
 import { zhConfig } from "./zh.mts";
@@ -18,5 +20,9 @@ export default defineConfig({
       link: "/zh",
       ...zhConfig
     }
+  },
+
+  vite: {
+    plugins: [UnoCSS()]
   }
 });

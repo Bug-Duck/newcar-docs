@@ -1,0 +1,12 @@
+{
+  "en-US": {
+    "title": "Notice",
+    "msg": "This documentation is version 0.9.0+, but it was not published. Please refer to our GitHub repository's next branch to get the latest news. To get the documentation before version 0.8.0, please refer to our old site.",
+    "old": "Visit old site"
+  },
+  "zh-CN": {
+    "title": "注意",
+    "msg": "此文档的版本为0.9.0+，但尚未发布，请参阅GitHub存储库的 next 分支以获取最新消息。要获取 0.8.0 版本之前的文档，请参阅旧的网站。",
+    "old": "旧版站点"
+  }
+}
