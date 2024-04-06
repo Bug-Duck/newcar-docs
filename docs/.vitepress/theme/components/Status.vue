@@ -29,7 +29,7 @@ const { lang } = useData();
           target="_blank"
           class="px-4 py-1.5 md:ml-2 bg-#3e63dd rounded-md font-bold text-sm hover:bg-#5c73e7 transition-colors whitespace-nowrap"
         >
-          {{ tokens[lang].old }}
+          {{ tokens[lang].button }}
         </a>
       </div>
     </div>
