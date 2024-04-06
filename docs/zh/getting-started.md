@@ -51,9 +51,7 @@ $ pnpm add canvaskit-wasm
 ```typescript
 import * as nc from "newcar";
 
-await new nc.CarEngine()
-  .init("../node_modules/canvaskit-wasm/bin/canvaskit.wasm")
-  .then((engine) => {});
+const engine = await new nc.CarEngine().init("../node_modules/canvaskit-wasm/bin/canvaskit.wasm");
 ```
 
 在上述的代码中，我们引入了 `newcar` 并将它命名为 `nc`, 然后我们创建了一个 `CarEngine` 对象并传入了刚才安装的CanvasKit-WASM文件。
@@ -63,11 +61,8 @@ await new nc.CarEngine()
 ```typescript
 import * as nc from "newcar";
 
-await new nc.CarEngine()
-  .init("../node_modules/canvaskit-wasm/bin/canvaskit.wasm")
-  .then((engine) => {
-    const app = engine.createApp(document.querySelector("#canvas"));
-  });
+const engine = await new nc.CarEngine().init("../node_modules/canvaskit-wasm/bin/canvaskit.wasm");
+const app = engine.createApp(document.querySelector("#canvas"));
 ```
 
 我们使用 `CarEngine.createApp` 去创建了一个动画实例，并传入了 `<canvas>` 的dom对象
@@ -77,15 +72,12 @@ await new nc.CarEngine()
 ```typescript
 import * as nc from "newcar";
 
-await new nc.CarEngine()
-  .init("../node_modules/canvaskit-wasm/bin/canvaskit.wasm")
-  .then((engine) => {
-    const app = engine.createApp(document.querySelector("#canvas"));
-    const root = new nc.Circle(100);
-    const scene = new nc.Scene(root);
-    app.checkout(scene);
-    app.play();
-  });
+const engine = await new nc.CarEngine().init("../node_modules/canvaskit-wasm/bin/canvaskit.wasm");
+const app = engine.createApp(document.querySelector("#canvas"));
+const root = new nc.Circle(100);
+const scene = new nc.Scene(root);
+app.checkout(scene);
+app.play();
 ```
 
 首先我们创建了一个root, 是一个 `Widget` 的继承类 `Circle`, 这个继承类构造函数的第一个参数是这个圆的半径，去哦们这里设为 `100`
