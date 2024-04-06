@@ -51,7 +51,7 @@ Then, add the following code in `main.ts`.
 ```typescript
 import * as nc from "newcar";
 
-await new CarEngine()
+await new nc.CarEngine()
   .init("../node_modules/canvaskit-wasm/bin/canvaskit.wasm")
   .then((engine) => {});
 ```
@@ -63,9 +63,11 @@ In the code above, we imported `newcar` and named it `nc`. Then we created a `Ca
 ```typescript
 import * as nc from "newcar";
 
-await new CarEngine().init("../node_modules/canvaskit-wasm/bin/canvaskit.wasm").then((engine) => {
-  const app = engine.createApp(document.querySelector("#canvas"));
-});
+await new nc.CarEngine()
+  .init("../node_modules/canvaskit-wasm/bin/canvaskit.wasm")
+  .then((engine) => {
+    const app = engine.createApp(document.querySelector("#canvas"));
+  });
 ```
 
 We used `CarEngine.createApp` to create an animation instance and passed in the DOM object of `<canvas>`.
@@ -75,13 +77,15 @@ We used `CarEngine.createApp` to create an animation instance and passed in the 
 ```typescript
 import * as nc from "newcar";
 
-await new CarEngine().init("../node_modules/canvaskit-wasm/bin/canvaskit.wasm").then((engine) => {
-  const app = engine.createApp(document.querySelector("#canvas"));
-  const root = new Circle(100);
-  const scene = new nc.Scene(root);
-  app.checkout(scene);
-  app.play();
-});
+await new nc.CarEngine()
+  .init("../node_modules/canvaskit-wasm/bin/canvaskit.wasm")
+  .then((engine) => {
+    const app = engine.createApp(document.querySelector("#canvas"));
+    const root = new nc.Circle(100);
+    const scene = new nc.Scene(root);
+    app.checkout(scene);
+    app.play();
+  });
 ```
 
 First, we created a root, which is a `Widget` subclass `Circle`. The constructor's first parameter of this subclass is the radius of the circle, which we set to `100`.
