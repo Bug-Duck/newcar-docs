@@ -50,7 +50,7 @@ export const zhConfig = defineConfig({
             },
             {
               text: "父子组件",
-              link: "zh/advanced/parents-children-widgets"
+              link: "zh/advanced/parents-children-widget"
             }
           ]
         }

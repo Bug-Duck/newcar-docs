@@ -2,6 +2,8 @@
 title: Animations
 ---
 
+# Animation
+
 The underlying principle of newcar animations is to continuously change an attribute of an object in each frame. In the quick start, you've already mastered the basic use of newcar animations. Now let's delve into more detail.
 
 How do you define an animation? We have previously learned about the built-in animation `create`, and in addition to that, newcar has many other built-in animations. Here is a list of commonly used animations:

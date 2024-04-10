@@ -50,7 +50,7 @@ export const enConfig = defineConfig({
             },
             {
               text: "Parents-Children Widget",
-              link: "advanced/parents-children-widgets"
+              link: "advanced/parents-children-widget"
             }
           ]
         }
