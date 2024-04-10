@@ -40,6 +40,19 @@ export const zhConfig = defineConfig({
         {
           text: "入门指南",
           link: "zh/getting-started"
+        },
+        {
+          text: "进阶",
+          items: [
+            {
+              text: "动画",
+              link: "zh/advanced/animation"
+            },
+            {
+              text: "父子组件",
+              link: "zh/advanced/parents-children-widgets"
+            }
+          ]
         }
       ],
       "/api/": []

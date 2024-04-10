@@ -1,0 +1,174 @@
+{
+  "main": {
+    "id": "2ffe0a130d9f4d96",
+    "type": "split",
+    "children": [
+      {
+        "id": "89583f6c23698b41",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "343b98d9e91f4cd8",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "fa4e4f33d7af4980",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/advanced/animation.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f4d98b55ca532e50",
+    "type": "split",
+    "children": [
+      {
+        "id": "0d62bd51f6210eec",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "12f1a9a2fc022301",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "fedc862c773d3bd0",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "46cc7eafb0960650",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "90c0124cf12f82db",
+    "type": "split",
+    "children": [
+      {
+        "id": "687acd0359007946",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6aef8f422f0b4f75",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "docs/advanced/animation.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "1d8ff64e162f2725",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "docs/advanced/animation.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "9dcb3d0ccb047226",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "3fdfc0883adbcd12",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "docs/advanced/animation.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "fa4e4f33d7af4980",
+  "lastOpenFiles": [
+    "docs/advanced/parents-children-widget.md",
+    "docs/zh/advanced/parents-children-widget.md",
+    "docs/advanced/animation.md",
+    "docs/advanced",
+    "docs/zh/advanced/animation.md",
+    "docs/zh/advanced/optional-parameters.md",
+    "未命名.md",
+    "docs/zh/index.md",
+    "docs/zh/getting-started.md",
+    "docs/zh/advanced",
+    "docs/zh/members.md",
+    "docs/getting-started.md",
+    "docs/index.md"
+  ]
+}

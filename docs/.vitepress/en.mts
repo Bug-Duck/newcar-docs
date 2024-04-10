@@ -40,6 +40,19 @@ export const enConfig = defineConfig({
         {
           text: "Getting Started",
           link: "/getting-started"
+        },
+        {
+          text: "Advanced",
+          items: [
+            {
+              text: "Animation",
+              link: "advanced/animation"
+            },
+            {
+              text: "Parents-Children Widget",
+              link: "advanced/parents-children-widgets"
+            }
+          ]
         }
       ],
       "/api/": []
