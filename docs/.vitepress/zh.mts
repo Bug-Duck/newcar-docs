@@ -51,6 +51,14 @@ export const zhConfig = defineConfig({
             {
               text: "父子组件",
               link: "zh/advanced/parents-children-widget"
+            },
+            {
+              text: "色彩系统",
+              link: "zh/advanced/color-system"
+            },
+            {
+              text: "录制器",
+              link: "zh/advanced/recorder"
             }
           ]
         }

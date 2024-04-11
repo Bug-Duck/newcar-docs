@@ -21,7 +21,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/advanced/animation.md",
+                "file": "docs/zh/advanced/update-function.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/advanced/animation.md",
+                "file": "docs/zh/advanced/update-function.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/advanced/animation.md",
+                "file": "docs/zh/advanced/update-function.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/advanced/animation.md"
+                "file": "docs/zh/advanced/update-function.md"
               }
             }
           }
@@ -157,11 +157,15 @@
   },
   "active": "fa4e4f33d7af4980",
   "lastOpenFiles": [
-    "docs/advanced/parents-children-widget.md",
-    "docs/zh/advanced/parents-children-widget.md",
-    "docs/advanced/animation.md",
-    "docs/advanced",
+    "docs/zh/advanced/color-system.md",
+    "docs/zh/advanced/recorder.md",
     "docs/zh/advanced/animation.md",
+    "docs/zh/advanced/parents-children-widget.md",
+    "docs/zh/advanced/update-function.md",
+    "docs/public/uni.webp",
+    "docs/advanced/animation.md",
+    "docs/advanced/parents-children-widget.md",
+    "docs/advanced",
     "docs/zh/advanced/optional-parameters.md",
     "未命名.md",
     "docs/zh/index.md",
