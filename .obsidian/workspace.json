@@ -155,8 +155,14 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "fa4e4f33d7af4980",
+  "active": "12f1a9a2fc022301",
   "lastOpenFiles": [
+    "docs/zh/api/apis/define-car-plugin.md",
+    "docs/zh/api/apis/define-animation.md",
+    "docs/zh/api/apis/change-style.md",
+    "docs/zh/api/apis/change-style",
+    "docs/zh/api/apis/change-sty;le",
+    "docs/zh/api/apis/change-property.md",
     "docs/zh/advanced/animation.md",
     "docs/zh/advanced/recorder.md",
     "docs/zh/advanced/parents-children-widget.md",
