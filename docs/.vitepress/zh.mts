@@ -63,7 +63,28 @@ export const zhConfig = defineConfig({
           ]
         }
       ],
-      "/api/": []
+      "/api/": [
+        {
+          text: "API",
+          items: [
+            {
+              text: "test"
+            }
+          ],
+          link: "/zh/api/apis/index"
+        },
+
+        {
+          text: "对象",
+          items: [],
+          link: "/zh/api/objects"
+        },
+        {
+          text: "基础图形包",
+          items: [],
+          link: "/zh/api/widgets/index"
+        }
+      ]
     }
   }
 });

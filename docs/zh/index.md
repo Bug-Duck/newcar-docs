@@ -15,7 +15,7 @@ hero:
       link: zh/getting-started
     - theme: alt
       text: API参考
-      link: zh/api/
+      link: zh/api/index
 
 features:
   - title: 丰富的APIs 🛠️

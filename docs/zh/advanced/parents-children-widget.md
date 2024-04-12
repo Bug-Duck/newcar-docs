@@ -7,12 +7,12 @@ title: 父子组件
 在 `newcar` 中，对象可以通过 `children` 属性进行嵌套。以下是添加它们的方法：
 
 ```javascript
-const child = new $.Circle(200, {
+const child = new Circle(200, {
   x: 200,
   y: 300
 });
 
-const father = new $.Circle(300, {
+const father = new Circle(300, {
   x: 100,
   y: 200
 });
