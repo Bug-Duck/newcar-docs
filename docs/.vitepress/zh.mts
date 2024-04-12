@@ -57,6 +57,10 @@ export const zhConfig = defineConfig({
               link: "zh/advanced/color-system"
             },
             {
+              text: "逐帧调用",
+              link: "zh/advanced/update-function"
+            },
+            {
               text: "录制器",
               link: "zh/advanced/recorder"
             }
@@ -66,23 +70,18 @@ export const zhConfig = defineConfig({
       "/api/": [
         {
           text: "API",
-          items: [
-            {
-              text: "test"
-            }
-          ],
-          link: "/zh/api/apis/index"
+          items: [],
+          link: "zh/api/apis"
         },
-
         {
           text: "对象",
           items: [],
-          link: "/zh/api/objects"
+          link: "zh/api/objects"
         },
         {
           text: "基础图形包",
           items: [],
-          link: "/zh/api/widgets/index"
+          link: "zh/api/widgets"
         }
       ]
     }

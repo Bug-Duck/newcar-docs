@@ -21,7 +21,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/zh/advanced/parents-children-widget.md",
+                "file": "docs/zh/advanced/update-function.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/zh/advanced/parents-children-widget.md",
+                "file": "docs/zh/advanced/update-function.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/zh/advanced/parents-children-widget.md",
+                "file": "docs/zh/advanced/update-function.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/zh/advanced/parents-children-widget.md"
+                "file": "docs/zh/advanced/update-function.md"
               }
             }
           }
@@ -155,8 +155,12 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "12f1a9a2fc022301",
+  "active": "fa4e4f33d7af4980",
   "lastOpenFiles": [
+    "docs/zh/advanced/animation.md",
+    "docs/zh/advanced/recorder.md",
+    "docs/zh/advanced/parents-children-widget.md",
+    "docs/zh/advanced/color-system.md",
     "docs/zh/api/index.md",
     "docs/zh/api/apis/index.md",
     "docs/zh/api/objects",
@@ -165,11 +169,7 @@
     "docs/zh/api/api",
     "docs/zh/api",
     "docs/zh/advanced/optional-parameters.md",
-    "docs/zh/advanced/parents-children-widget.md",
-    "docs/zh/advanced/animation.md",
-    "docs/zh/advanced/recorder.md",
     "docs/zh/advanced/update-function.md",
-    "docs/zh/advanced/color-system.md",
     "docs/public/uni.webp",
     "docs/advanced/animation.md",
     "docs/advanced/parents-children-widget.md",
