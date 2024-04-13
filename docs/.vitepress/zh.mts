@@ -38,6 +38,10 @@ export const zhConfig = defineConfig({
     sidebar: {
       "/": [
         {
+          text: "示例动画",
+          link: "/examples"
+        },
+        {
           text: "入门指南",
           link: "zh/getting-started"
         },

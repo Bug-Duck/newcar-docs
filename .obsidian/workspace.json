@@ -155,8 +155,18 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "fa4e4f33d7af4980",
+  "active": "12f1a9a2fc022301",
   "lastOpenFiles": [
+    "_tmp_25944_80590ac745abdd4642df02ef90569dcc",
+    "docs/examples/Demo3.vue",
+    "docs/examples/Demo2.vue",
+    "docs/examples/Demo1 copy.vue",
+    "docs/examples/PlayButton.vue",
+    "docs/examples/canvaskit.wasm",
+    "_tmp_19020_c53047039c102e19da8247bf87799c29",
+    "docs/examples/Demo1.vue",
+    "docs/examples",
+    "docs/examples.md",
     "docs/zh/advanced/preload.md",
     "docs/advanced/preload.md",
     "docs/zh/api/apis/use-font.md",
@@ -179,20 +189,11 @@
     "docs/zh/advanced/animation.md",
     "docs/zh/api/apis/change-style",
     "docs/zh/api/apis/change-sty;le",
-    "docs/zh/api/objects",
-    "docs/zh/api/widgets",
-    "docs/zh/api/apis",
-    "docs/zh/api/api",
-    "docs/zh/api",
     "docs/zh/advanced/optional-parameters.md",
     "docs/advanced/animation.md",
     "docs/advanced/parents-children-widget.md",
-    "docs/advanced",
     "未命名.md",
     "docs/zh/index.md",
-    "docs/zh/advanced",
-    "docs/zh/members.md",
-    "docs/getting-started.md",
-    "docs/index.md"
+    "docs/zh/members.md"
   ]
 }

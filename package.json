@@ -27,7 +27,10 @@
     "preserveUnused": true
   },
   "dependencies": {
+    "@newcar/mod-math": "^0.2.1",
+    "canvaskit-wasm": "^0.39.1",
     "markdownlint": "^0.33.0",
-    "markdownlint-cli": "^0.38.0"
+    "markdownlint-cli": "^0.38.0",
+    "newcar": "^0.12.0"
   }
 }

@@ -5,12 +5,21 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  "@newcar/mod-math":
+    specifier: ^0.2.1
+    version: 0.2.1
+  canvaskit-wasm:
+    specifier: ^0.39.1
+    version: 0.39.1
   markdownlint:
     specifier: ^0.33.0
     version: 0.33.0
   markdownlint-cli:
     specifier: ^0.38.0
     version: 0.38.0
+  newcar:
+    specifier: ^0.12.0
+    version: 0.12.0
 
 devDependencies:
   prettier:
@@ -1098,6 +1107,86 @@ packages:
       "@jridgewell/sourcemap-codec": 1.4.15
     dev: true
 
+  /@newcar/basic@0.11.1:
+    resolution:
+      {
+        integrity: sha512-1Z+nvNok58jyUVFKslnjsfKzi8TADRx5GNJPtCHYD2JGsxkDx8VDu+5Bg5oo4iiQOWwMy6CaNjhz/paAM2gSGQ==
+      }
+    dependencies:
+      "@newcar/core": 0.11.1
+      "@newcar/utils": 0.11.1
+      canvaskit-wasm: 0.39.1
+    dev: false
+
+  /@newcar/basic@0.12.0:
+    resolution:
+      {
+        integrity: sha512-VU5dot6ouj8TvkXiFIExx2i2rAu9bZ0e5uCab2/8ks62jomNRPpVJ+04W1RFN4Eke9GZ5yHH+5pl4GhKKoOx5g==
+      }
+    dependencies:
+      "@newcar/core": 0.12.0
+      "@newcar/utils": 0.12.0
+    dev: false
+
+  /@newcar/core@0.11.1:
+    resolution:
+      {
+        integrity: sha512-BR7qPAULxwFXyO6rkdMzyw8JPbQd+TDz2ztOZiBitvxuur/+gUs7WeUwiJZ22DcV1jLnC+AWw1HVVXfflpMydw==
+      }
+    dependencies:
+      "@newcar/utils": 0.11.1
+      canvaskit-wasm: 0.39.1
+      mitt: 3.0.1
+    dev: false
+
+  /@newcar/core@0.12.0:
+    resolution:
+      {
+        integrity: sha512-myU8PV0A7w363tQn9uFlq8hg4QNI+H+oyoR79aV4MfvpiLwFXRnMNzeCTGox3TngcvhJqNbgVgn5TVOxm47pJw==
+      }
+    dependencies:
+      "@newcar/utils": 0.12.0
+      mitt: 3.0.1
+    dev: false
+
+  /@newcar/mod-math@0.2.1:
+    resolution:
+      {
+        integrity: sha512-QPdQfyqVUiA67yRBHVhX04NBpEV2oMH8JN025oSoMJIBvFgNN6TU1GGnsyTtQ5RpvpscNk+ftApmpG2mRNvkVw==
+      }
+    dependencies:
+      "@newcar/basic": 0.11.1
+      "@newcar/core": 0.11.1
+      "@newcar/utils": 0.11.1
+      canvaskit-wasm: 0.39.1
+    dev: false
+
+  /@newcar/recorder@0.12.0:
+    resolution:
+      {
+        integrity: sha512-rxF6eQvAQCxCPQfBRvizkQkUSaBuD/uPav2VFEbS++3zfnOQorISq27PWUOKJwUAu9Df03+DETHXGqpGqA9YOA==
+      }
+    dev: false
+
+  /@newcar/utils@0.11.1:
+    resolution:
+      {
+        integrity: sha512-18UCtslk8Om4r1S0CwE2Up75O5iSaQxFgm3Csai8QLXhlaBE4gAvBZKhwT1pUpzsI2145GbGCbN1D2WpwXlmBg==
+      }
+    dependencies:
+      canvaskit-wasm: 0.39.1
+      colorparsley: 0.1.8
+    dev: false
+
+  /@newcar/utils@0.12.0:
+    resolution:
+      {
+        integrity: sha512-6SvU0WW/qaTH9ako4iNTnyJfZX2bwaCRTk4yB1B4+hWaejuGBxyNZNsgUXM6FCLAqZiYRH+XocTUWRi60FPKfw==
+      }
+    dependencies:
+      colorparsley: 0.1.8
+    dev: false
+
   /@nodelib/fs.scandir@2.1.5:
     resolution:
       {
@@ -2077,6 +2166,13 @@ packages:
       - vue
     dev: true
 
+  /@webgpu/types@0.1.21:
+    resolution:
+      {
+        integrity: sha512-pUrWq3V5PiSGFLeLxoGqReTZmiiXwY3jRkIG5sLLKjyqNxrwm/04b4nw7LSmGWJcKk59XOM/YRTUwOzo4MMlow==
+      }
+    dev: false
+
   /abbrev@2.0.0:
     resolution:
       {
@@ -2288,6 +2384,15 @@ packages:
       }
     dev: true
 
+  /canvaskit-wasm@0.39.1:
+    resolution:
+      {
+        integrity: sha512-Gy3lCmhUdKq+8bvDrs9t8+qf7RvcjuQn+we7vTVVyqgOVO1UVfHpsnBxkTZw+R4ApEJ3D5fKySl9TU11hmjl/A==
+      }
+    dependencies:
+      "@webgpu/types": 0.1.21
+    dev: false
+
   /chalk@2.4.2:
     resolution:
       {
@@ -2401,6 +2506,13 @@ packages:
         integrity: sha512-IfEDxwoWIjkeXL1eXcDiow4UbKjhLdq6/EuSVR9GMN7KVH3r9gQ83e73hsz1Nd1T3ijd5xv1wcWRYO+D6kCI2w==
       }
     dev: true
+
+  /colorparsley@0.1.8:
+    resolution:
+      {
+        integrity: sha512-rObESTTTE6G5qO5WFwFxWPggpw4KfpxnLC6Ssl8bITBnNVRhDsyCeTRAUxWQNVTx2pRknKlO2nddYTxjkdNFaw==
+      }
+    dev: false
 
   /commander@11.1.0:
     resolution:
@@ -3583,6 +3695,13 @@ packages:
       yallist: 4.0.0
     dev: true
 
+  /mitt@3.0.1:
+    resolution:
+      {
+        integrity: sha512-vKivATfr97l2/QBCYAkXYDbrIWPM2IIKEl7YPhjCvKlG3kE2gm+uBo6nEXK3M5/Ffh/FLpKExzOQ3JJoJGFKBw==
+      }
+    dev: false
+
   /mkdirp@1.0.4:
     resolution:
       {
@@ -3635,6 +3754,18 @@ packages:
       }
     engines: { node: ">= 0.6" }
     dev: true
+
+  /newcar@0.12.0:
+    resolution:
+      {
+        integrity: sha512-Fy9IcVbEpiE4bQFuZkMq4g0X3Wd4h/HrZUv2rkOb0nPWSVMthOPUNIIP6/L2hvatRmEdq2nlDdNTGTOMboi35g==
+      }
+    dependencies:
+      "@newcar/basic": 0.12.0
+      "@newcar/core": 0.12.0
+      "@newcar/recorder": 0.12.0
+      "@newcar/utils": 0.12.0
+    dev: false
 
   /node-fetch-native@1.6.4:
     resolution:
