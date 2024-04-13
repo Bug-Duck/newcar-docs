@@ -51,6 +51,18 @@ export const enConfig = defineConfig({
             {
               text: "Parents-Children Widget",
               link: "advanced/parents-children-widget"
+            },
+            {
+              text: "Color System",
+              link: "zh/advanced/color-system"
+            },
+            {
+              text: "Frame-by-Frame called",
+              link: "zh/advanced/update-function"
+            },
+            {
+              text: "Recorder",
+              link: "zh/advanced/recorder"
             }
           ]
         }
