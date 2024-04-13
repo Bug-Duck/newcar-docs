@@ -79,6 +79,15 @@ const members = [
       { icon: 'x', link: 'https://twitter.com/hyachano' }
     ]
   },
+  {
+    avatar: 'https://avatars.githubusercontent.com/u/25446947?v=4',
+    name: 'Linesoft',
+    title: 'Programmer',
+    links: [
+      { icon: 'github', link: 'https://github.com/linesoft2' },
+      { icon: 'x', link: 'https://twitter.com/linesoft_zyl' }
+    ]
+  }
 ]
 </script>
 

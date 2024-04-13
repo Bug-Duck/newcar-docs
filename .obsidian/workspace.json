@@ -21,7 +21,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/zh/advanced/preload.md",
+                "file": "docs/zh/advanced/animation.md",
                 "mode": "source",
                 "source": true
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/zh/advanced/preload.md",
+                "file": "docs/zh/advanced/animation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/zh/advanced/preload.md",
+                "file": "docs/zh/advanced/animation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/zh/advanced/preload.md"
+                "file": "docs/zh/advanced/animation.md"
               }
             }
           }
@@ -157,9 +157,9 @@
   },
   "active": "fa4e4f33d7af4980",
   "lastOpenFiles": [
+    "docs/zh/advanced/preload.md",
     "docs/advanced/preload.md",
     "docs/zh/api/apis/use-font.md",
-    "docs/zh/advanced/preload.md",
     "docs/zh/api/apis/index.md",
     "docs/zh/api/apis/define-car-plugin.md",
     "docs/zh/api/apis/define-animation.md",
