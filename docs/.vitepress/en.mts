@@ -54,11 +54,15 @@ export const enConfig = defineConfig({
             },
             {
               text: "Color System",
-              link: "zh/advanced/color-system"
+              link: "advanced/color-system"
             },
             {
               text: "Frame-by-Frame called",
-              link: "zh/advanced/update-function"
+              link: "advanced/update-function"
+            },
+            {
+              text: "Resource Preloading",
+              link: "advanced/preload"
             },
             {
               text: "Recorder",

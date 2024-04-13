@@ -61,6 +61,10 @@ export const zhConfig = defineConfig({
               link: "zh/advanced/update-function"
             },
             {
+              text: "资源预加载",
+              link: "zh/advanced/preload"
+            },
+            {
               text: "录制器",
               link: "zh/advanced/recorder"
             }

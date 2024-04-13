@@ -1,4 +1,4 @@
-## `ChangeProperty(property: string, from: number, to: number, params?: { from: any, to: any, by: EasingFunction })`
+## `ChangeProperty(property: string, from: number, to: number, params?: { from: any, to: any, by: EasingFunction }): Animation`
 
 用于让一个 `Widget` 或其子对象的属性动起来
 

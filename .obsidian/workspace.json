@@ -21,9 +21,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/advanced/update-function.md",
+                "file": "docs/zh/advanced/preload.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             }
           }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/advanced/update-function.md",
+                "file": "docs/zh/advanced/preload.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/advanced/update-function.md",
+                "file": "docs/zh/advanced/preload.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/advanced/update-function.md"
+                "file": "docs/zh/advanced/preload.md"
               }
             }
           }
@@ -157,9 +157,19 @@
   },
   "active": "fa4e4f33d7af4980",
   "lastOpenFiles": [
+    "docs/advanced/preload.md",
+    "docs/zh/api/apis/use-font.md",
+    "docs/zh/advanced/preload.md",
+    "docs/zh/api/apis/index.md",
+    "docs/zh/api/apis/define-car-plugin.md",
+    "docs/zh/api/apis/define-animation.md",
+    "docs/zh/api/apis/change-style.md",
+    "docs/zh/api/apis/change-property.md",
+    "docs/zh/api/index.md",
+    "docs/zh/getting-started.md",
+    "docs/advanced/update-function.md",
     "docs/public/Banner.webp",
     "docs/public/uni.webp",
-    "docs/advanced/update-function.md",
     "docs/zh/advanced/update-function.md",
     "docs/zh/advanced/recorder.md",
     "docs/zh/advanced/parents-children-widget.md",
@@ -167,14 +177,8 @@
     "docs/advanced/color-system.md",
     "docs/zh/advanced/color-system.md",
     "docs/zh/advanced/animation.md",
-    "docs/zh/api/apis/define-car-plugin.md",
-    "docs/zh/api/apis/define-animation.md",
-    "docs/zh/api/apis/change-style.md",
     "docs/zh/api/apis/change-style",
     "docs/zh/api/apis/change-sty;le",
-    "docs/zh/api/apis/change-property.md",
-    "docs/zh/api/index.md",
-    "docs/zh/api/apis/index.md",
     "docs/zh/api/objects",
     "docs/zh/api/widgets",
     "docs/zh/api/apis",
@@ -186,7 +190,6 @@
     "docs/advanced",
     "未命名.md",
     "docs/zh/index.md",
-    "docs/zh/getting-started.md",
     "docs/zh/advanced",
     "docs/zh/members.md",
     "docs/getting-started.md",
