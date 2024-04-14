@@ -11,7 +11,7 @@
     "simple-git-hooks": "^2.11.1",
     "taze": "^0.13.3",
     "unocss": "0.59.0-beta.1",
-    "vitepress": "1.0.0-rc.39",
+    "vitepress": "1.1.0",
     "vue": "^3.4.21"
   },
   "pnpm": {
