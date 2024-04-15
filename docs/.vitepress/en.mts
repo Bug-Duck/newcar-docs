@@ -70,7 +70,11 @@ export const enConfig = defineConfig({
             },
             {
               text: "Recorder",
-              link: "zh/advanced/recorder"
+              link: "advanced/recorder"
+            },
+            {
+              text: "Local Mode",
+              link: "advanced/local-mode"
             }
           ]
         }

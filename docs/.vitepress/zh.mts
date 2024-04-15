@@ -71,6 +71,10 @@ export const zhConfig = defineConfig({
             {
               text: "录制器",
               link: "zh/advanced/recorder"
+            },
+            {
+              text: "本地模式",
+              link: "zh/advanced/local-mode"
             }
           ]
         }
