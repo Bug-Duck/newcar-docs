@@ -21,7 +21,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/zh/advanced/animation.md",
+                "file": "docs/zh/api/basic/image-widget.md",
                 "mode": "source",
                 "source": true
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/zh/advanced/animation.md",
+                "file": "docs/zh/api/basic/image-widget.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/zh/advanced/animation.md",
+                "file": "docs/zh/api/basic/image-widget.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/zh/advanced/animation.md"
+                "file": "docs/zh/api/basic/image-widget.md"
               }
             }
           }
@@ -155,8 +155,10 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "12f1a9a2fc022301",
+  "active": "fa4e4f33d7af4980",
   "lastOpenFiles": [
+    "docs/zh/api/basic/arrow.md",
+    "docs/zh/api/basic/arc.md",
     "docs/examples/Demo3.vue",
     "node_modules/@newcar",
     "_tmp_28204_9913d128dd4fc0ca94bf9b382c72a8dc",
@@ -167,7 +169,6 @@
     "docs/examples/Demo2.vue",
     "docs/examples/Demo1 copy.vue",
     "docs/examples/PlayButton.vue",
-    "docs/examples/canvaskit.wasm",
     "docs/examples.md",
     "docs/zh/advanced/preload.md",
     "docs/advanced/preload.md",
@@ -193,7 +194,6 @@
     "docs/advanced/animation.md",
     "docs/advanced/parents-children-widget.md",
     "未命名.md",
-    "docs/zh/index.md",
-    "docs/zh/members.md"
+    "docs/zh/index.md"
   ]
 }
