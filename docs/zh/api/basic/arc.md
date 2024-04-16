@@ -1,21 +1,21 @@
-# `Arc`
+## `Arc`
 
 `Arc` 类用于在画布上绘制圆弧形状。它是 `Figure` 类的扩展，专门用于创建圆弧。
 
-## 属性:
+### 属性:
 
 - `radius` (`number`): 圆弧的半径。
 - `from` (`number`): 圆弧的起始角度，以度为单位。
 - `to` (`number`): 圆弧的结束角度，以度为单位。
 
-## 方法:
+### 方法:
 
 - `constructor(radius: number, from: number, to: number, options?: FigureOptions)`: 构造函数，初始化圆弧的基本属性。
 - `init(ck: CanvasKit)`: 初始化圆弧相关的画笔和路径。
 - `predraw(ck: CanvasKit, propertyChanged: string)`: 在属性更改前准备绘制所需的资源。
 - `draw(canvas: Canvas)`: 在指定的画布上绘制圆弧。
 
-## 示例代码:
+### 示例代码:
 
 ```typescript
 const arc = new Arc(100, 0, 180, {
