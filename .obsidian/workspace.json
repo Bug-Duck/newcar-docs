@@ -157,6 +157,7 @@
   },
   "active": "fa4e4f33d7af4980",
   "lastOpenFiles": [
+    "docs/zh/api/animations.md",
     "docs/zh/api/basic/arrow.md",
     "docs/zh/api/basic/arc.md",
     "docs/examples/Demo3.vue",
@@ -193,7 +194,6 @@
     "docs/zh/advanced/optional-parameters.md",
     "docs/advanced/animation.md",
     "docs/advanced/parents-children-widget.md",
-    "未命名.md",
-    "docs/zh/index.md"
+    "未命名.md"
   ]
 }

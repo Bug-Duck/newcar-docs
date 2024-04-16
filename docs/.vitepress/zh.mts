@@ -145,8 +145,7 @@ export const zhConfig = defineConfig({
             },
             {
               text: "动画",
-              items: [],
-              collapsed: false
+              link: "zh/api/animations"
             }
           ]
         }
