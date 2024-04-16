@@ -17,7 +17,7 @@ export const sharedConfig = defineConfig({
     socialLinks: [
       {
         icon: "github",
-        link: "https://github.com/Bug-Duck/newcar"
+        link: "https://github.com/dromara/newcar"
       },
       {
         icon: "x",
@@ -26,7 +26,7 @@ export const sharedConfig = defineConfig({
     ],
     footer: {
       message: "Released under the Apache-2.0 license",
-      copyright: "Copyright © 2023-present BugDuck"
+      copyright: "Copyright © 2023-present BugDuck Team & Dromara Community"
     }
   }
 });
