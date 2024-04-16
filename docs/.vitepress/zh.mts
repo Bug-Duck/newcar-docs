@@ -79,7 +79,28 @@ export const zhConfig = defineConfig({
           items: [
             {
               text: "函数",
-              items: [],
+              items: [
+                {
+                  text: "changeProperty",
+                  link: "zh/api/apis/change-property"
+                },
+                {
+                  text: "changeStyle",
+                  link: "zh/api/apis/change-style"
+                },
+                {
+                  text: "defineAnimation",
+                  link: "zh/api/apis/define-animation"
+                },
+                {
+                  text: "defineCarPlugin",
+                  link: "zh/api/apis/define-car-plugin"
+                },
+                {
+                  text: "useFont",
+                  link: "zh/api/apis/use-font"
+                }
+              ],
               collapsed: false,
               link: "zh/api/apis"
             },
