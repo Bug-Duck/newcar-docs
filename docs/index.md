@@ -7,7 +7,7 @@ hero:
   text: "The modern animation engine"
   tagline: "Highly configurable universal advanced engine"
   image:
-    src: /Banner.webp
+    src: /newcar_banner.webp
     alt: Newcar Logo
   actions:
     - theme: brand

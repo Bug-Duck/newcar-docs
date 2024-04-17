@@ -27,7 +27,7 @@ const { lang } = useData();
           href="https://newcar-old.netlify.app"
           rel="noreferrer noopener"
           target="_blank"
-          class="px-4 py-1.5 md:ml-2 bg-#3e63dd rounded-md font-bold text-sm hover:bg-#5c73e7 transition-colors whitespace-nowrap"
+          class="px-4 py-1.5 md:ml-2 bg-#FF8585 rounded-md font-bold text-sm hover:bg-#FF7B7B transition-colors whitespace-nowrap"
         >
           {{ tokens[lang].button }}
         </a>

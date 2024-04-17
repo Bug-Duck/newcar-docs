@@ -7,7 +7,7 @@ hero:
   text: "现代化的动画引擎"
   tagline: "高度可自定义化动画引擎"
   image:
-    src: /Banner.webp
+    src: /newcar_banner.webp
     alt: Newcar Logo
   actions:
     - theme: brand

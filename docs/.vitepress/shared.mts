@@ -6,12 +6,12 @@ export const sharedConfig = defineConfig({
   cleanUrls: true,
   appearance: true,
   lastUpdated: true,
-  head: [["link", { rel: "icon", href: "/uni.webp", type: "image/webp" }]],
+  head: [["link", { rel: "icon", href: "/newcar_uni.webp", type: "image/webp" }]],
 
   themeConfig: {
     logo: {
-      light: "/dark.webp",
-      dark: "/light.webp"
+      light: "/newcar_black.webp",
+      dark: "/newcar_white.webp"
     },
     outline: [2, 3],
     socialLinks: [
