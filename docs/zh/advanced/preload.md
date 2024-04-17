@@ -10,14 +10,13 @@ title: 资源预加载
 await useFont(url);
 ```
 
-其中， `url` 代表字体文件的位置，并返回一个 `ArrayBuffer` 对象，然后你就可以在 `Text` 中使用
-它了：
+其中， `url` 代表字体文件的位置，并返回一个 `ArrayBuffer` 对象，然后你就可以在 `Text` 中使用它了：
 
 ```javascript
 root.add(new Text(["Hello Newcar"]));
 ```
 
-因为CanvasKit-WASM不支持css的字体，所以字体文件需要自己准备。
+因为 CanvasKit-WASM 不支持 CSS 的字体，所以字体文件需要自己准备。
 
 ## 图片预加载
 

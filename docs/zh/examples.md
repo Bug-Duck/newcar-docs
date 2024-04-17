@@ -1,4 +1,4 @@
-:::tip tips: Click canvas to play the animation.
+:::tip 提示：点击画布播放动画
 
 <Demo1/>
 
@@ -30,7 +30,7 @@ app.play;
 
 :::
 
-:::tip tips: Click canvas to play the animation.
+:::tip 提示：点击画布播放动画
 
 <Demo2/>
 

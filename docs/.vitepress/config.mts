@@ -6,6 +6,8 @@ import { zhConfig } from "./zh.mts";
 
 import { defineConfig } from "vitepress";
 
+import vite from "./vite.config";
+
 export default defineConfig({
   ...sharedConfig,
 
@@ -22,7 +24,5 @@ export default defineConfig({
     }
   },
 
-  vite: {
-    plugins: [UnoCSS()]
-  }
+  vite
 });

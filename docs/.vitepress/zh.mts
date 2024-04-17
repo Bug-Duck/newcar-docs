@@ -5,7 +5,7 @@ export const zhConfig = defineConfig({
   description: "现代化的动画引擎",
 
   themeConfig: {
-    siteTitle: "Newcar官方文档",
+    siteTitle: "Newcar 官方文档",
     outline: {
       label: "索引"
     },
@@ -35,42 +35,42 @@ export const zhConfig = defineConfig({
       "/": [
         {
           text: "示例动画",
-          link: "/examples"
+          link: "/zh/examples"
         },
         {
           text: "入门指南",
-          link: "zh/getting-started"
+          link: "/zh/getting-started"
         },
         {
           text: "进阶",
           items: [
             {
               text: "动画",
-              link: "zh/advanced/animation"
+              link: "/zh/advanced/animation"
             },
             {
               text: "父子组件",
-              link: "zh/advanced/parents-children-widget"
+              link: "/zh/advanced/parents-children-widget"
             },
             {
               text: "色彩系统",
-              link: "zh/advanced/color-system"
+              link: "/zh/advanced/color-system"
             },
             {
               text: "逐帧调用",
-              link: "zh/advanced/update-function"
+              link: "/zh/advanced/update-function"
             },
             {
               text: "资源预加载",
-              link: "zh/advanced/preload"
+              link: "/zh/advanced/preload"
             },
             {
               text: "录制器",
-              link: "zh/advanced/recorder"
+              link: "/zh/advanced/recorder"
             },
             {
               text: "本地模式",
-              link: "zh/advanced/local-mode"
+              link: "/zh/advanced/local-mode"
             }
           ]
         },
@@ -82,91 +82,91 @@ export const zhConfig = defineConfig({
               items: [
                 {
                   text: "changeProperty",
-                  link: "zh/api/apis/change-property"
+                  link: "/zh/api/apis/change-property"
                 },
                 {
                   text: "changeStyle",
-                  link: "zh/api/apis/change-style"
+                  link: "/zh/api/apis/change-style"
                 },
                 {
                   text: "defineAnimation",
-                  link: "zh/api/apis/define-animation"
+                  link: "/zh/api/apis/define-animation"
                 },
                 {
                   text: "defineCarPlugin",
-                  link: "zh/api/apis/define-car-plugin"
+                  link: "/zh/api/apis/define-car-plugin"
                 },
                 {
                   text: "useFont",
-                  link: "zh/api/apis/use-font"
+                  link: "/zh/api/apis/use-font"
                 }
               ],
               collapsed: false,
-              link: "zh/api/apis"
+              link: "/zh/api/apis"
             },
             {
               text: "核心对象",
               items: [],
               collapsed: false,
-              link: "zh/api/objects"
+              link: "/zh/api/objects"
             },
             {
               text: "基础图形包",
               items: [
                 {
                   text: "Arc",
-                  link: "zh/api/basic/arc"
+                  link: "/zh/api/basic/arc"
                 },
                 {
                   text: "Arrow",
-                  link: "zh/api/basic/arrow"
+                  link: "/zh/api/basic/arrow"
                 },
                 {
                   text: "Circle",
-                  link: "zh/api/basic/circle"
+                  link: "/zh/api/basic/circle"
                 },
                 {
                   text: "Figure",
-                  link: "zh/api/basic/figure"
+                  link: "/zh/api/basic/figure"
                 },
                 {
                   text: "ImageWidget",
-                  link: "zh/api/basic/image-widget"
+                  link: "/zh/api/basic/image-widget"
                 },
                 {
                   text: "Line",
-                  link: "zh/api/basic/line"
+                  link: "/zh/api/basic/line"
                 },
                 {
                   text: "Path",
-                  link: "zh/api/basic/path"
+                  link: "/zh/api/basic/path"
                 },
                 {
                   text: "Polygon",
-                  link: "zh/api/basic/polygon"
+                  link: "/zh/api/basic/polygon"
                 },
                 {
                   text: "Rect",
-                  link: "zh/api/basic/rect"
+                  link: "/zh/api/basic/rect"
                 },
                 {
                   text: "Svg",
-                  link: "zh/api/basic/svg"
+                  link: "/zh/api/basic/svg"
                 },
                 {
                   text: "Text",
-                  link: "zh/api/basic/text"
+                  link: "/zh/api/basic/text"
                 },
                 {
                   text: "Widget",
-                  link: "zh/api/basic/widget"
+                  link: "/zh/api/basic/widget"
                 }
               ],
               collapsed: false
             },
             {
               text: "动画",
-              link: "zh/api/animations"
+              link: "/zh/api/animations"
             }
           ]
         }

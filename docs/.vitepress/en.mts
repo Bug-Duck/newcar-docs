@@ -39,7 +39,7 @@ export const enConfig = defineConfig({
       "/": [
         {
           text: "Examples",
-          link: "./examples"
+          link: "/examples"
         },
         {
           text: "Getting Started",
@@ -50,31 +50,31 @@ export const enConfig = defineConfig({
           items: [
             {
               text: "Animation",
-              link: "advanced/animation"
+              link: "/advanced/animation"
             },
             {
               text: "Parents-Children Widget",
-              link: "advanced/parents-children-widget"
+              link: "/advanced/parents-children-widget"
             },
             {
               text: "Color System",
-              link: "advanced/color-system"
+              link: "/advanced/color-system"
             },
             {
               text: "Frame-by-Frame called",
-              link: "advanced/update-function"
+              link: "/advanced/update-function"
             },
             {
               text: "Resource Preloading",
-              link: "advanced/preload"
+              link: "/advanced/preload"
             },
             {
               text: "Recorder",
-              link: "advanced/recorder"
+              link: "/advanced/recorder"
             },
             {
               text: "Local Mode",
-              link: "advanced/local-mode"
+              link: "/advanced/local-mode"
             }
           ]
         }
