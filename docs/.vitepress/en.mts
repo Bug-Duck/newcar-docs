@@ -77,9 +77,26 @@ export const enConfig = defineConfig({
               link: "/advanced/local-mode"
             }
           ]
+        },
+        {
+          text: "API",
+          items: [
+            {
+              text: "Basic",
+              link: "/api/basic"
+            },
+            {
+              text: "Animations",
+              link: "/api/animations"
+            },
+            {
+              text: "Others",
+              link: "/api/others"
+            }
+          ],
+          link: "/zpi/"
         }
-      ],
-      "/api/": []
+      ]
     }
   }
 });

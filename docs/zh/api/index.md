@@ -2,6 +2,8 @@
 title: API Reference
 ---
 
-- [接口](./apis/)
-<!-- - [对象](./objects/)
-- [标准图形包](./objects/) -->
+# 索引
+
+- [标准图形包](./basic.md)
+- [标准动画](./animations.md)
+- [其他](./others.md)

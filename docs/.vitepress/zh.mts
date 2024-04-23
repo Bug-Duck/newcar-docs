@@ -78,97 +78,19 @@ export const zhConfig = defineConfig({
           text: "API参考",
           items: [
             {
-              text: "函数",
-              items: [
-                {
-                  text: "changeProperty",
-                  link: "/zh/api/apis/change-property"
-                },
-                {
-                  text: "changeStyle",
-                  link: "/zh/api/apis/change-style"
-                },
-                {
-                  text: "defineAnimation",
-                  link: "/zh/api/apis/define-animation"
-                },
-                {
-                  text: "defineCarPlugin",
-                  link: "/zh/api/apis/define-car-plugin"
-                },
-                {
-                  text: "useFont",
-                  link: "/zh/api/apis/use-font"
-                }
-              ],
-              collapsed: false,
-              link: "/zh/api/apis"
-            },
-            {
-              text: "核心对象",
-              items: [],
-              collapsed: false,
-              link: "/zh/api/objects"
-            },
-            {
               text: "基础图形包",
-              items: [
-                {
-                  text: "Arc",
-                  link: "/zh/api/basic/arc"
-                },
-                {
-                  text: "Arrow",
-                  link: "/zh/api/basic/arrow"
-                },
-                {
-                  text: "Circle",
-                  link: "/zh/api/basic/circle"
-                },
-                {
-                  text: "Figure",
-                  link: "/zh/api/basic/figure"
-                },
-                {
-                  text: "ImageWidget",
-                  link: "/zh/api/basic/image-widget"
-                },
-                {
-                  text: "Line",
-                  link: "/zh/api/basic/line"
-                },
-                {
-                  text: "Path",
-                  link: "/zh/api/basic/path"
-                },
-                {
-                  text: "Polygon",
-                  link: "/zh/api/basic/polygon"
-                },
-                {
-                  text: "Rect",
-                  link: "/zh/api/basic/rect"
-                },
-                {
-                  text: "Svg",
-                  link: "/zh/api/basic/svg"
-                },
-                {
-                  text: "Text",
-                  link: "/zh/api/basic/text"
-                },
-                {
-                  text: "Widget",
-                  link: "/zh/api/basic/widget"
-                }
-              ],
-              collapsed: false
+              link: "zh/api/basic"
             },
             {
-              text: "动画",
-              link: "/zh/api/animations"
+              text: "基础动画",
+              link: "zh/api/animations"
+            },
+            {
+              text: "其他",
+              link: "zh/api/others"
             }
-          ]
+          ],
+          link: "zh/zpi/"
         }
       ]
     }

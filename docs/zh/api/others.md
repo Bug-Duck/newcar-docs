@@ -14,6 +14,7 @@
 ### 方法
 
 - `checkout(scene: Scene)`：将场景应用到应用程序中。
+
   - `scene`：要应用的场景。
 
 - `play()`：开始播放应用程序中的动画。
@@ -21,9 +22,11 @@
 - `pause()`：暂停应用程序中的动画。
 
 - `setUpdate(updateFunc: (elapsed: number) => void)`：设置一个更新函数，在每个帧更新时被调用。
+
   - `updateFunc`：更新函数，接受自上一个帧以来经过的时间（以毫秒为单位）。
 
 - `use(plugin: CarPlugin)`：使用指定的插件。
+
   - `plugin`：要使用的 CarPlugin。
 
 - `setBackgroundColor(color: Color | 'transparent')`：设置应用程序的背景颜色。
@@ -36,13 +39,16 @@
 ### 方法
 
 - `init(_ck: CanvasKit)`：初始化 AsyncWidget，返回一个 Promise，表示初始化状态。
+
   - `_ck`：CanvasKit 命名空间。
 
 - `predraw(_ck: CanvasKit, _propertyChanged: string)`：在绘制之前预加载必要的项目，返回一个 Promise，表示预加载状态。
+
   - `_ck`：CanvasKit 命名空间。
   - `_propertyChanged`：已更改的属性名称。
 
 - `preupdate(ck: CanvasKit, propertyChanged?: string)`：在更新之前预加载必要的项目，返回一个 Promise，表示预加载状态。
+
   - `ck`：CanvasKit 命名空间。
   - `propertyChanged`（可选）：已更改的属性名称。
 
@@ -59,12 +65,15 @@
 ### 方法
 
 - `init(canvasKitWasmFile: string)`：初始化 CarEngine，返回一个 Promise。
+
   - `canvasKitWasmFile`：CanvasKit WASM 文件的路径。
 
 - `use(plugin: CarPlugin)`：使用指定的插件。
+
   - `plugin`：要使用的 CarPlugin。
 
 - `createApp(element: HTMLCanvasElement)`：创建一个新的 App 实例。
+
   - `element`：一个 HTMLCanvasElement，用于渲染应用程序。
 
 - `createLocalApp(width: number, height: number)`：创建一个新的 LocalApp 实例。
@@ -84,37 +93,46 @@
 CarPlugin 接口定义了多个可选的方法，这些方法在 CarEngine、App 或 LocalApp 的生命周期中不同时刻被调用。您可以实现这些方法来扩展功能或修改默认行为。
 
 - `beforeCanvasKitLoaded(engine: CarEngine)`：在 CanvasKit 加载之前被调用。
+
   - `engine`：CarEngine 实例。
 
 - `onCanvasKitLoaded(engine: CarEngine)`：在 CanvasKit 加载后被调用。
+
   - `engine`：CarEngine 实例。
 
 - `beforeSurfaceLoaded(app: App | LocalApp)`：在表面加载之前被调用。
+
   - `app`：App 或 LocalApp 实例。
 
 - `onSurfaceLoaded(app: App | LocalApp, surface: Surface)`：在表面加载后被调用。
+
   - `app`：App 或 LocalApp 实例。
   - `surface`：Surface 实例。
 
 - `beforeCheckout(app: App | LocalApp, scene: Scene)`：在场景应用之前被调用。
+
   - `app`：App 或 LocalApp 实例。
   - `scene`：Scene 实例。
 
 - `onCheckout(app: App | LocalApp, scene: Scene)`：在场景应用后被调用。
+
   - `app`：App 或 LocalApp 实例。
   - `scene`：Scene 实例。
 
 - `beforeUpdate(app: App | LocalApp, elapsed: number)`：在每个帧更新之前被调用。
+
   - `app`：App 或 LocalApp 实例。
   - `elapsed`：自上一个帧以来经过的时间（以毫秒为单位）。
 
 - `beforePatch(app: App | LocalApp, elapsed: number, old: Widget, now: Widget)`：在 Widget 更新之前被调用。
+
   - `app`：App 或 LocalApp 实例。
   - `elapsed`：自上一个帧以来经过的时间（以毫秒为单位）。
   - `old`：旧的 Widget。
   - `now`：新的 Widget。
 
 - `afterPatch(app: App | LocalApp, elapsed: number, old: Widget, now: Widget)`：在 Widget 更新后被调用。
+
   - `app`：App 或 LocalApp 实例。
   - `elapsed`：自上一个帧以来经过的时间（以毫秒为单位）。
   - `old`：旧的 Widget。
@@ -144,18 +162,22 @@ CarPlugin 接口定义了多个可选的方法，这些方法在 CarEngine、App
 ### 方法
 
 - `constructor(width: number, height: number, ck: CanvasKit, plugins: CarPlugin[])`：创建一个新的 LocalApp 实例。
+
   - `width`：应用程序的宽度。
   - `height`：应用程序的高度。
   - `ck`：CanvasKit 命名空间。
   - `plugins`（可选）：一个 CarPlugin 数组，包含要使用的插件。
 
 - `checkout(scene: Scene)`：将场景应用到应用程序中。
+
   - `scene`：要应用的场景。
 
 - `setUpdate(updateFunc: (elapsed: number) => void)`：设置一个更新函数，在每个帧更新时被调用。
+
   - `updateFunc`：更新函数，接受自上一个帧以来经过的时间（以毫秒为单位）。
 
 - `use(plugin: CarPlugin)`：使用指定的插件。
+
   - `plugin`：要使用的 CarPlugin。
 
 - `getFrames(duration: number)`：获取指定持续时间的帧数据。
