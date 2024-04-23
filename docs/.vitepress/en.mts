@@ -94,7 +94,7 @@ export const enConfig = defineConfig({
               link: "/api/others"
             }
           ],
-          link: "/zpi/"
+          link: "/api/"
         }
       ]
     }
