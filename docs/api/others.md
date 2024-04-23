@@ -1,5 +1,3 @@
-Okay, here is the documentation for the remaining APIs in the `newcar-canvas` library, excluding the Widget inheritors, Widget class, and animation functions, listed in alphabetical order:
-
 ## App Class
 
 The `App` class is used to create and manage an application. It provides a canvas where you can render and animate Widgets.
