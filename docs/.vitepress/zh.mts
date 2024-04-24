@@ -91,6 +91,19 @@ export const zhConfig = defineConfig({
             }
           ],
           link: "zh/zpi/"
+        },
+        {
+          text: "自定义",
+          items: [
+            {
+              text: "组件基础",
+              link: "/zh/dev/basic-widget"
+            },
+            {
+              text: "组件进阶",
+              link: "/zh/dev/advanced-widget"
+            }
+          ]
         }
       ]
     }

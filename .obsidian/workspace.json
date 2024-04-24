@@ -11,24 +11,15 @@
             "id": "343b98d9e91f4cd8",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
-            "id": "fa4e4f33d7af4980",
-            "type": "leaf",
-            "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/zh/api/basic/image-widget.md",
+                "file": "docs/zh/dev/advanced-widget.md",
                 "mode": "source",
-                "source": true
+                "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -94,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/zh/api/basic/image-widget.md",
+                "file": "docs/zh/dev/advanced-widget.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/zh/api/basic/image-widget.md",
+                "file": "docs/zh/dev/advanced-widget.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/zh/api/basic/image-widget.md"
+                "file": "docs/zh/dev/advanced-widget.md"
               }
             }
           }
@@ -155,8 +146,14 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "fa4e4f33d7af4980",
+  "active": "343b98d9e91f4cd8",
   "lastOpenFiles": [
+    "docs/zh/dev/basic-widget.md",
+    "docs/zh/dev/advanced-widget.md",
+    "skia.org.md",
+    "未命名.md",
+    "docs/zh/dev",
+    "未命名",
     "docs/zh/api/animations.md",
     "docs/zh/api/basic/arrow.md",
     "docs/zh/api/basic/arc.md",
@@ -168,8 +165,6 @@
     "_tmp_24740_10792ec5d504ad85d12491c43d83f74a",
     "_tmp_25944_80590ac745abdd4642df02ef90569dcc",
     "docs/examples/Demo2.vue",
-    "docs/examples/Demo1 copy.vue",
-    "docs/examples/PlayButton.vue",
     "docs/examples.md",
     "docs/zh/advanced/preload.md",
     "docs/advanced/preload.md",
@@ -190,10 +185,6 @@
     "docs/advanced/recorder.md",
     "docs/advanced/color-system.md",
     "docs/zh/advanced/color-system.md",
-    "docs/zh/advanced/animation.md",
-    "docs/zh/advanced/optional-parameters.md",
-    "docs/advanced/animation.md",
-    "docs/advanced/parents-children-widget.md",
-    "未命名.md"
+    "docs/zh/advanced/animation.md"
   ]
 }
