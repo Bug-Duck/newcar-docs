@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/zh/dev/advanced-widget.md",
+                "file": "docs/zh/dev/animation-defination.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/zh/dev/advanced-widget.md",
+                "file": "docs/zh/dev/animation-defination.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/zh/dev/advanced-widget.md",
+                "file": "docs/zh/dev/animation-defination.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/zh/dev/advanced-widget.md"
+                "file": "docs/zh/dev/animation-defination.md"
               }
             }
           }
@@ -148,8 +148,13 @@
   },
   "active": "343b98d9e91f4cd8",
   "lastOpenFiles": [
-    "docs/zh/dev/basic-widget.md",
+    "docs/dev/basic-widget.md",
+    "docs/dev/animation-defination.md",
+    "docs/dev/advanced-widget.md",
+    "docs/dev",
     "docs/zh/dev/advanced-widget.md",
+    "docs/zh/dev/animation-defination.md",
+    "docs/zh/dev/basic-widget.md",
     "skia.org.md",
     "未命名.md",
     "docs/zh/dev",
@@ -164,7 +169,6 @@
     "_tmp_9920_419365c6e03c8fb386743377845df178",
     "_tmp_24740_10792ec5d504ad85d12491c43d83f74a",
     "_tmp_25944_80590ac745abdd4642df02ef90569dcc",
-    "docs/examples/Demo2.vue",
     "docs/examples.md",
     "docs/zh/advanced/preload.md",
     "docs/advanced/preload.md",
@@ -181,10 +185,6 @@
     "docs/public/uni.webp",
     "docs/zh/advanced/update-function.md",
     "docs/zh/advanced/recorder.md",
-    "docs/zh/advanced/parents-children-widget.md",
-    "docs/advanced/recorder.md",
-    "docs/advanced/color-system.md",
-    "docs/zh/advanced/color-system.md",
-    "docs/zh/advanced/animation.md"
+    "docs/zh/advanced/parents-children-widget.md"
   ]
 }

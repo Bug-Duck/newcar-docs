@@ -102,6 +102,10 @@ export const zhConfig = defineConfig({
             {
               text: "组件进阶",
               link: "/zh/dev/advanced-widget"
+            },
+            {
+              text: "动画定义",
+              link: "/zh/dev/animation-defination"
             }
           ]
         }
