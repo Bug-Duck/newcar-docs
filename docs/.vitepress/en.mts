@@ -97,7 +97,7 @@ export const enConfig = defineConfig({
           link: "/api/"
         },
         {
-          text: "自定义",
+          text: "Custom",
           items: [
             {
               text: "Basic Widget",
