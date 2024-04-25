@@ -95,6 +95,23 @@ export const enConfig = defineConfig({
             }
           ],
           link: "/api/"
+        },
+        {
+          text: "自定义",
+          items: [
+            {
+              text: "Basic Widget",
+              link: "/dev/basic-widget"
+            },
+            {
+              text: "Advanced Widget",
+              link: "/dev/advanced-widget"
+            },
+            {
+              text: "Animation Defination",
+              link: "/dev/animation-defination"
+            }
+          ]
         }
       ]
     }
