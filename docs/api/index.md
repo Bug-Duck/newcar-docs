@@ -2,7 +2,7 @@
 title: API Reference
 ---
 
-# 索引
+# API Reference
 
 - [Basic](./basic.md)
 - [Animations](./animations.md)
