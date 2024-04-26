@@ -48,7 +48,7 @@ const members = [
   {
     avatar: 'https://avatars.githubusercontent.com/u/73536163?v=4',
     name: 'Shizuku',
-    title: 'Documentation',
+    title: 'Design | Documentation',
     links: [
       { icon: 'github', link: 'https://github.com/ifshizuku' },
       { icon: 'x', link: 'https://twitter.com/ifszk' }
@@ -87,7 +87,16 @@ const members = [
       { icon: 'github', link: 'https://github.com/linesoft2' },
       { icon: 'x', link: 'https://twitter.com/linesoft_zyl' }
     ]
-  }
+  },
+  {
+    avatar: 'https://avatars.githubusercontent.com/u/84657208?v=4',
+    name: 'XiaoDong',
+    title: 'Programmer | Documentation',
+    links: [
+      { icon: 'github', link: 'https://github.com/xiaodong2008' },
+      { icon: 'x', link: 'https://twitter.com/dy_xiaodong' }
+    ]
+  },
 ]
 </script>
 
