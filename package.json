@@ -1,6 +1,7 @@
 {
   "type": "module",
   "scripts": {
+    "lint": "zhlint 'docs/zh/**/*.md'",
     "prepare": "simple-git-hooks",
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
@@ -13,7 +14,8 @@
     "unocss": "0.59.0-beta.1",
     "vite": "^5.2.9",
     "vitepress": "1.1.0",
-    "vue": "^3.4.21"
+    "vue": "^3.4.21",
+    "zhlint": "^0.8.1"
   },
   "pnpm": {
     "peerDependencyRules": {
