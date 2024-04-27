@@ -4,22 +4,22 @@ title: 组件基础
 
 # 组件基础
 
-欢迎来到newcar拓展的开发教程！我们会逐步讲解Newcar拓展的开发方式，以便于大家更好的开发Newcar拓展！
+欢迎来到 Newcar 拓展的开发教程！我们会逐步讲解 Newcar 拓展的开发方式，以便于大家更好的开发 Newcar 拓展！
 
 我们需要用到的包有
 
-- `@newcar/core` Newcar的核心包
-- `@newcar/basic` Newcar的基础图形包
-- `@newcar/utils` Newcar的工具包
-- `canvaskit-wasm` 老朋友了，CanvasKit-WASM的包
+- `@newcar/core` Newcar 的核心包
+- `@newcar/basic` Newcar 的基础图形包
+- `@newcar/utils` Newcar 的工具包
+- `canvaskit-wasm` 老朋友了，CanvasKit-WASM 的包
 
-在你的项目目录里安装这两个包，然后你便可以开发Widgets了！
+在你的项目目录里安装这两个包，然后你便可以开发 Widgets 了！
 
-我们的所有Widget都是基于 `Widget` 类，里面定义了一些方法，用于内核对他们进行操作
+我们的所有 Widget 都是基于 `Widget` 类，里面定义了一些方法，用于内核对他们进行操作
 
 ## 最基础的结构
 
-为了使用户有更完整的类型体验感，我们推荐使用TypeScript来代替JavaScript开发
+为了使用户有更完整的类型体验感，我们推荐使用 TypeScript 来代替 JavaScript 开发
 
 ```typescript
 import { Widget } from "@newcar/core";
@@ -47,18 +47,18 @@ export class MyWidget extends Widget {
 }
 ```
 
-- `MyWidgetOptions` 自定义Widget的选项，包含样式
-- `MyWidgetStyle` 自定义Widget的样式
-- `MyWidget` 自定义Widget本体
+- `MyWidgetOptions` 自定义 Widget 的选项，包含样式
+- `MyWidgetStyle` 自定义 Widget 的样式
+- `MyWidget` 自定义 Widget 本体
   - `init` 初始化
-    - `ck` CanvasKit-WASM的命名空间
+    - `ck` CanvasKit-WASM 的命名空间
   - `predraw` 预绘制，包括按需更新
-    - `ck` CanvasKit-WASM的命名空间
+    - `ck` CanvasKit-WASM 的命名空间
     - `prop` 改变的参数
   - `draw` 绘制函数
-    - `canvas` CanvasKit-WASM的画布对象
+    - `canvas` CanvasKit-WASM 的画布对象
 
-关于CanvasKit-WASM的使用，请参见[Skia官网](https://skia.org)
+关于 CanvasKit-WASM 的使用，请参见 [Skia 官网](https://skia.org)
 
 我们这里来实现一个三角形：
 
@@ -126,4 +126,4 @@ export class MyWidget extends Widget {
 }
 ```
 
-CanvasKit与原生Canvas2d有很多相同之处，大家可以参考Skia的API进行开发，当然我们更建议使用“拼积木”的方法来构建我们的Widget，具体请见下一篇
+CanvasKit 与原生 Canvas2d 有很多相同之处，大家可以参考 Skia 的 API 进行开发，当然我们更建议使用“拼积木”的方法来构建我们的 Widget，具体请见下一篇

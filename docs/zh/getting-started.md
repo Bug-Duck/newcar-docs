@@ -20,10 +20,10 @@ title: 入门指南
 
 首先你需要准备的环境和工具有：
 
-- Node.js（推荐 LTS 18 及更高版本）
-- 包管理器（npm、pnpm 或 yarn）
+- Node.js (推荐 LTS 18 及更高版本)
+- 包管理器 (npm、pnpm 或 yarn)
 - 一个现代的代码编辑器，如 VSCode、WebStorm 等
-- 一个支持 WebAssembly 的浏览器，查看 [支持浏览器版本列表](https://caniuse.com/?search=WebAssembly)
+- 一个支持 WebAssembly 的浏览器，查看[支持浏览器版本列表](https://caniuse.com/?search=WebAssembly)
 
 我们推荐使用 pnpm 包管理器和 Vite 去创建项目。为了方便演示，本文我们使用最简单的 Vanilla 结构。当然，你也可以选择你喜欢的框架，并且 Newcar 官方计划在未来逐步提供官方的一些框架包装器。
 
@@ -54,7 +54,7 @@ import * as nc from "newcar";
 const engine = await new nc.CarEngine().init("../node_modules/canvaskit-wasm/bin/canvaskit.wasm");
 ```
 
-在上述的代码中，我们引入了 `newcar` 并将它重新命名为 `nc`, 然后我们创建了一个 `CarEngine` 对象并传入了刚才安装的 CanvasKit-WASM 的二进制文件路径。
+在上述的代码中，我们引入了 `newcar` 并将它重新命名为 `nc`，然后我们创建了一个 `CarEngine` 对象并传入了刚才安装的 CanvasKit-WASM 的二进制文件路径。
 
 ## 创建一个动画程序
 
@@ -82,7 +82,7 @@ app.play();
 
 首先我们创建了 `root`，这里的根是一个 `Circle` 类，继承自 `Widget`，`Circle` 类构造函数的第一个参数是圆的半径，在这里我们设为 `100`。
 
-接着创建一个 `Scene` 对象，并将刚刚创建的 `root` 设置为这个场景的根组件（Widget）。注意，一个场景只能有一个根组件（Widget），但一个根组件可以有多个子组件，子组件又可以有子组件，如此形成一个场景的树状结构。
+接着创建一个 `Scene` 对象，并将刚刚创建的 `root` 设置为这个场景的根组件 (Widget)。注意，一个场景只能有一个根组件 (Widget)，但一个根组件可以有多个子组件，子组件又可以有子组件，如此形成一个场景的树状结构。
 
 最后我们使用 `App.checkout()` 方法切换到了这个场景，并使用 `App.play()` 方法播放动画。
 

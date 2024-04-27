@@ -2,7 +2,7 @@
 title: 组件进阶
 ---
 
-这里是Widget的进阶文档！在这里，我们将要介绍拼积木的方式来构建我们的Widget
+这里是 Widget 的进阶文档！在这里，我们将要介绍拼积木的方式来构建我们的 Widget
 
 ```typescript
 constructor(/** 省略 */) {
@@ -242,8 +242,8 @@ export class Arrow extends Figure {
 }
 ```
 
-在上面的代码中，我们添加了 `trim` (箭头的杆) 和 `tip` (箭头的尖)， 然后对其进行旋转组合，就成了箭头
+在上面的代码中，我们添加了 `trim` (箭头的杆) 和 `tip` (箭头的尖)，然后对其进行旋转组合，就成了箭头
 
 :::warn
-请在 `construnctor` 里创建并加入子组件，因为init只有动画play后才会进行调用，所以可能会有一定的几率报错
+请在 `construnctor` 里创建并加入子组件，因为 init 只有动画 play 后才会进行调用，所以可能会有一定的几率报错
 :::

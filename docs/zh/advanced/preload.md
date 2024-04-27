@@ -10,7 +10,7 @@ title: 资源预加载
 await useFont(url);
 ```
 
-其中， `url` 代表字体文件的位置，并返回一个 `ArrayBuffer` 对象，然后你就可以在 `Text` 中使用它了：
+其中，`url` 代表字体文件的位置，并返回一个 `ArrayBuffer` 对象，然后你就可以在 `Text` 中使用它了：
 
 ```javascript
 root.add(new Text(["Hello Newcar"]));

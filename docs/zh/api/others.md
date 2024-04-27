@@ -7,7 +7,7 @@
 - `constructor(element: HTMLCanvasElement, ck: CanvasKit, plugins: CarPlugin[])`：创建一个新的应用程序实例。
   - `element`：一个 HTMLCanvasElement，用于渲染应用程序。
   - `ck`：CanvasKit 命名空间，包含渲染所需的函数和类。
-  - `plugins`（可选）：一个 CarPlugin 数组，包含要使用的插件。
+  - `plugins` (可选)：一个 CarPlugin 数组，包含要使用的插件。
 
 ### 方法
 
@@ -21,7 +21,7 @@
 
 - `setUpdate(updateFunc: (elapsed: number) => void)`：设置一个更新函数，在每个帧更新时被调用。
 
-  - `updateFunc`：更新函数，接受自上一个帧以来经过的时间（以毫秒为单位）。
+  - `updateFunc`：更新函数，接受自上一个帧以来经过的时间 (以毫秒为单位)。
 
 - `use(plugin: CarPlugin)`：使用指定的插件。
 
@@ -48,7 +48,7 @@
 - `preupdate(ck: CanvasKit, propertyChanged?: string)`：在更新之前预加载必要的项目，返回一个 Promise，表示预加载状态。
 
   - `ck`：CanvasKit 命名空间。
-  - `propertyChanged`（可选）：已更改的属性名称。
+  - `propertyChanged` (可选)：已更改的属性名称。
 
 - `_isAsyncWidget()`：返回 `true`，表示这是 AsyncWidget。
 
@@ -120,25 +120,25 @@ CarPlugin 接口定义了多个可选的方法，这些方法在 CarEngine、App
 - `beforeUpdate(app: App | LocalApp, elapsed: number)`：在每个帧更新之前被调用。
 
   - `app`：App 或 LocalApp 实例。
-  - `elapsed`：自上一个帧以来经过的时间（以毫秒为单位）。
+  - `elapsed`：自上一个帧以来经过的时间 (以毫秒为单位)。
 
 - `beforePatch(app: App | LocalApp, elapsed: number, old: Widget, now: Widget)`：在 Widget 更新之前被调用。
 
   - `app`：App 或 LocalApp 实例。
-  - `elapsed`：自上一个帧以来经过的时间（以毫秒为单位）。
+  - `elapsed`：自上一个帧以来经过的时间 (以毫秒为单位)。
   - `old`：旧的 Widget。
   - `now`：新的 Widget。
 
 - `afterPatch(app: App | LocalApp, elapsed: number, old: Widget, now: Widget)`：在 Widget 更新后被调用。
 
   - `app`：App 或 LocalApp 实例。
-  - `elapsed`：自上一个帧以来经过的时间（以毫秒为单位）。
+  - `elapsed`：自上一个帧以来经过的时间 (以毫秒为单位)。
   - `old`：旧的 Widget。
   - `now`：新的 Widget。
 
 - `afterUpdate(app: App | LocalApp, elapsed: number)`：在每个帧更新后被调用。
   - `app`：App 或 LocalApp 实例。
-  - `elapsed`：自上一个帧以来经过的时间（以毫秒为单位）。
+  - `elapsed`：自上一个帧以来经过的时间 (以毫秒为单位)。
 
 ## LocalApp 类
 
@@ -164,7 +164,7 @@ CarPlugin 接口定义了多个可选的方法，这些方法在 CarEngine、App
   - `width`：应用程序的宽度。
   - `height`：应用程序的高度。
   - `ck`：CanvasKit 命名空间。
-  - `plugins`（可选）：一个 CarPlugin 数组，包含要使用的插件。
+  - `plugins` (可选)：一个 CarPlugin 数组，包含要使用的插件。
 
 - `checkout(scene: Scene)`：将场景应用到应用程序中。
 
@@ -172,14 +172,14 @@ CarPlugin 接口定义了多个可选的方法，这些方法在 CarEngine、App
 
 - `setUpdate(updateFunc: (elapsed: number) => void)`：设置一个更新函数，在每个帧更新时被调用。
 
-  - `updateFunc`：更新函数，接受自上一个帧以来经过的时间（以毫秒为单位）。
+  - `updateFunc`：更新函数，接受自上一个帧以来经过的时间 (以毫秒为单位)。
 
 - `use(plugin: CarPlugin)`：使用指定的插件。
 
   - `plugin`：要使用的 CarPlugin。
 
 - `getFrames(duration: number)`：获取指定持续时间的帧数据。
-  - `duration`：帧的持续时间（以毫秒为单位）。
+  - `duration`：帧的持续时间 (以毫秒为单位)。
 
 ## Scene 类
 
@@ -188,7 +188,7 @@ CarPlugin 接口定义了多个可选的方法，这些方法在 CarEngine、App
 ### 属性
 
 - `root`：场景的根 Widget。
-- `elapsed`：自场景开始以来经过的时间（以毫秒为单位）。
+- `elapsed`：自场景开始以来经过的时间 (以毫秒为单位)。
 
 ### 构造函数
 
