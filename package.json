@@ -26,7 +26,7 @@
     }
   },
   "simple-git-hooks": {
-    "pre-commit": "pnpm prettier . --write && pnpm markdownlint docs/ && git add .",
+    "pre-commit": "pnpm prettier . --write && pnpm markdownlint docs/",
     "preserveUnused": true
   },
   "dependencies": {
