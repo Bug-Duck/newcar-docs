@@ -35,7 +35,7 @@
 
 ```shell [npm]
 $ npm install -g @newcar/cli
-````
+```
 
 ```shell [yarn]
 $ yarn add -g @newcar/cli
@@ -59,18 +59,18 @@ $ npm install
 
 我们建议使用 [PNPM + Vite](https://vitejs.dev/guide/#scaffolding-your-first-vite-project) 来创建我们的项目。
 
-````shell
+```shell
 $ pnpm create vite my-newcar-project
 $ cd my-newcar-project
 $ pnpm install
-````
+```
 
 接下来，安装 Newcar 和 CanvasKit-WASM 软件包。
 
-````shell
+```shell
 $ pnpm add newcar
 $ pnpm add canvaskit-wasm
-````
+```
 
 ## 初始化项目
 
